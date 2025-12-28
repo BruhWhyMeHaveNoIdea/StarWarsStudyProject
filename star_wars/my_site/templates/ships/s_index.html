@@ -1,0 +1,114 @@
+<!-- s_index.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Корабли - Имперская база данных{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'ships/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Флот Империи и Альянса</h2>
+    <p>Всего в базе: {{ ships|length }} кораблей</p>
+    
+    <div class="ships-grid">
+        {% for ship in ships %}
+            {% if ship %}
+                <div class="ship-card">
+                    <div class="ship-header">
+                        <h3>
+                            {% if ship.name %}
+                                {{ ship.name }}
+                            {% else %}
+                                Неизвестный корабль
+                            {% endif %}
+                        </h3>
+                        <div class="ship-type">
+                            {% if ship.class and ship.class.strip %}
+                                {{ ship.class }}
+                            {% else %}
+                                Класс неизвестен
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <div class="ship-image">
+                        <i class="fas fa-space-shuttle"></i>
+                    </div>
+                    
+                    <div class="ship-info">
+                        <div class="ship-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Длина</span>
+                                <span class="spec-value">
+                                    {% if ship.length and ship.length != "unknown" and ship.length.strip %}
+                                        {{ ship.length }} м
+                                    {% else %}
+                                        Нет информации
+                                    {% endif %}
+                                </span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Экипаж</span>
+                                <span class="spec-value">
+                                    {% if ship.crew and ship.crew != "unknown" and ship.crew.strip %}
+                                        {{ ship.crew }}
+                                    {% else %}
+                                        Нет информации
+                                    {% endif %}
+                                </span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Пассажиры</span>
+                                <span class="spec-value">
+                                    {% if ship.passengers and ship.passengers != "unknown" and ship.passengers.strip %}
+                                        {{ ship.passengers }}
+                                    {% else %}
+                                        Нет информации
+                                    {% endif %}
+                                </span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Принадлежность</span>
+                                <span class="spec-value">
+                                    {% if ship.faction and ship.faction.strip %}
+                                        {{ ship.faction }}
+                                    {% else %}
+                                        Нет информации
+                                    {% endif %}
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <p>
+                            {% if ship.description %}
+                                {{ ship.description|truncatechars:150 }}
+                            {% else %}
+                                Описание отсутствует
+                            {% endif %}
+                        </p>
+                        <a href="{% url 'ships:details' ship.id %}" class="button">Подробнее</a>
+                    </div>
+                </div>
+            {% endif %}
+        {% empty %}
+            <div class="no-results">
+                <i class="fas fa-space-shuttle"></i>
+                <h3>Корабли не найдены</h3>
+                <p>Нет данных о кораблях в базе</p>
+            </div>
+        {% endfor %}
+    </div>
+    
+    {% if ships %}
+        <div class="pagination">
+            <a href="#" class="page-link active">1</a>
+            <a href="#" class="page-link">2</a>
+            <a href="#" class="page-link">3</a>
+            <a href="#" class="page-link">4</a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

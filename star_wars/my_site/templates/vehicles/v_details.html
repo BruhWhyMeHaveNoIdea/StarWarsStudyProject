@@ -1,0 +1,193 @@
+<!-- v_details.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    {% if vehicle.name %}{{ vehicle.name }}{% else %}Неизвестный транспорт{% endif %} - Имперская база данных
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'vehicles/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>{% if vehicle.name %}{{ vehicle.name }}{% else %}Неизвестный транспорт{% endif %}</h2>
+    
+    <div class="vehicle-details-container">
+        <div class="vehicle-detail-section">
+            <h3>Характеристики</h3>
+            
+            <div class="detail-item">
+                <span class="detail-label">Класс:</span>
+                <span class="detail-value">
+                    {% if vehicle.vehicle_class and vehicle.vehicle_class != "unknown" and vehicle.vehicle_class.strip %}
+                        {{ vehicle.vehicle_class }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            
+            <div class="detail-item">
+                <span class="detail-label">Длина:</span>
+                <span class="detail-value">
+                    {% if vehicle.length and vehicle.length != "unknown" and vehicle.length.strip %}
+                        {{ vehicle.length }} метров
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            
+            <div class="detail-item">
+                <span class="detail-label">Экипаж:</span>
+                <span class="detail-value">
+                    {% if vehicle.crew and vehicle.crew != "unknown" and vehicle.crew.strip %}
+                        {{ vehicle.crew }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            
+            <div class="detail-item">
+                <span class="detail-label">Пассажиры:</span>
+                <span class="detail-value">
+                    {% if vehicle.passengers and vehicle.passengers != "unknown" and vehicle.passengers.strip %}
+                        {{ vehicle.passengers }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            
+            <div class="detail-item">
+                <span class="detail-label">Макс. скорость:</span>
+                <span class="detail-value">
+                    {% if vehicle.max_atmosphering_speed and vehicle.max_atmosphering_speed != "unknown" and vehicle.max_atmosphering_speed.strip %}
+                        {{ vehicle.max_atmosphering_speed }} км/ч
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            
+            <div class="detail-item">
+                <span class="detail-label">Грузоподъемность:</span>
+                <span class="detail-value">
+                    {% if vehicle.cargo_capacity and vehicle.cargo_capacity != "unknown" and vehicle.cargo_capacity.strip %}
+                        {{ vehicle.cargo_capacity }} кг
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            
+            <div class="detail-item">
+                <span class="detail-label">Производитель:</span>
+                <span class="detail-value">
+                    {% if vehicle.manufacturer and vehicle.manufacturer != "unknown" and vehicle.manufacturer.strip %}
+                        {{ vehicle.manufacturer }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            
+            <div class="detail-item">
+                <span class="detail-label">Стоимость:</span>
+                <span class="detail-value">
+                    {% if vehicle.cost_in_credits and vehicle.cost_in_credits != "unknown" and vehicle.cost_in_credits.strip %}
+                        {{ vehicle.cost_in_credits }} кредитов
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+        
+        <div class="vehicle-detail-section">
+            <h3>Известные пилоты</h3>
+            <ul class="pilots-list">
+                {% if vehicle.pilots.all %}
+                    {% for pilot in vehicle.pilots.all %}
+                        {% if pilot %}
+                            <li>
+                                <a href="{% url 'people:details' pilot.id %}">
+                                    <i class="fas fa-user"></i> 
+                                    {% if pilot.name %}
+                                        {{ pilot.name }}
+                                    {% else %}
+                                        Неизвестный пилот
+                                    {% endif %}
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% empty %}
+                        <li>Нет информации</li>
+                    {% endfor %}
+                {% else %}
+                    <li>Нет информации</li>
+                {% endif %}
+            </ul>
+            
+            <h3 style="margin-top: 1.5rem;">Вооружение</h3>
+            <div style="margin-top: 0.5rem;">
+                {% if vehicle.armament and vehicle.armament != "unknown" and vehicle.armament.strip %}
+                    <div class="badge">{{ vehicle.armament }}</div>
+                {% else %}
+                    <span>Не вооружен или нет информации</span>
+                {% endif %}
+            </div>
+            
+            <h3 style="margin-top: 1.5rem;">Появления в фильмах</h3>
+            <div style="margin-top: 0.5rem;">
+                {% if vehicle.films.all %}
+                    {% for film in vehicle.films.all %}
+                        {% if film %}
+                            <a href="{% url 'films:details' film.id %}" class="badge">
+                                {% if film.title %}
+                                    {{ film.title }}
+                                {% else %}
+                                    Неизвестный фильм
+                                {% endif %}
+                            </a>
+                        {% endif %}
+                    {% empty %}
+                        <span>Не появлялся в фильмах</span>
+                    {% endfor %}
+                {% else %}
+                    <span>Нет информации о появлениях в фильмах</span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <div class="vehicle-detail-section" style="margin-top: 2rem;">
+        <h3>Описание</h3>
+        <p>
+            {% if vehicle.description and vehicle.description.strip %}
+                {{ vehicle.description }}
+            {% else %}
+                Описание отсутствует
+            {% endif %}
+        </p>
+        
+        <h3 style="margin-top: 1.5rem;">Дополнительная информация</h3>
+        <p>
+            {% if vehicle.additional_info and vehicle.additional_info.strip %}
+                {{ vehicle.additional_info }}
+            {% else %}
+                Дополнительная информация отсутствует
+            {% endif %}
+        </p>
+    </div>
+    
+    <div style="margin-top: 2rem;">
+        <a href="{% url 'vehicles:index' %}" class="button button-secondary">
+            Назад к списку транспорта
+        </a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Имперская база данных - {% block title %}{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    {% block extra_css %}{% endblock %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1><i class="fas fa-jedi"></i> Имперская база данных</h1>
+                <nav>
+                    <ul>
+                        <li><a href="{% url 'main:index' %}"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="{% url 'people:index' %}"><i class="fas fa-users"></i> Персонажи</a></li>
+                        <li><a href="{% url 'ships:index' %}"><i class="fas fa-space-shuttle"></i> Корабли</a></li>
+                        <li><a href="{% url 'films:index' %}"><i class="fas fa-film"></i> Фильмы</a></li>
+                        <li><a href="{% url 'vehicles:index' %}"><i class="fas fa-car"></i> Транспорт</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Имперская база данных &copy; 2025. Все данные принадлежат Дарту Вейдеру.</p>
+            <p class="disclaimer">Это фанатский проект в образовательных целях</p>
+        </div>
+    </footer>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

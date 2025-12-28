@@ -1,0 +1,6210 @@
+[
+  {
+    "model": "people.People",
+    "pk": 1,
+    "fields": {
+      "name": "Luke Skywalker",
+      "height": 172,
+      "mass": 77.0,
+      "hair_color": "blond",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "19BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Tatooine"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 2,
+    "fields": {
+      "name": "Leia Organa",
+      "height": 150,
+      "mass": 49.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "19BBY",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Alderaan"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 3,
+    "fields": {
+      "name": "Han Solo",
+      "height": 180,
+      "mass": 80.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "29BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Corellia"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 4,
+    "fields": {
+      "name": "Darth Vader",
+      "height": 202,
+      "mass": 136.0,
+      "hair_color": "none",
+      "skin_color": "white",
+      "eye_color": "yellow",
+      "birth_year": "41.9BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Tatooine"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 5,
+    "fields": {
+      "name": "Obi-Wan Kenobi",
+      "height": 182,
+      "mass": 77.0,
+      "hair_color": "auburn, white",
+      "skin_color": "fair",
+      "eye_color": "blue-gray",
+      "birth_year": "57BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Stewjon"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 6,
+    "fields": {
+      "name": "Yoda",
+      "height": 66,
+      "mass": 17.0,
+      "hair_color": "white",
+      "skin_color": "green",
+      "eye_color": "brown",
+      "birth_year": "896BBY",
+      "gender": "male",
+      "species": "Yoda's species",
+      "homeworld": "Unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 7,
+    "fields": {
+      "name": "R2-D2",
+      "height": 96,
+      "mass": 32.0,
+      "hair_color": "n/a",
+      "skin_color": "white, blue",
+      "eye_color": "red",
+      "birth_year": "33BBY",
+      "gender": "n/a",
+      "species": "Droid",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 8,
+    "fields": {
+      "name": "C-3PO",
+      "height": 167,
+      "mass": 75.0,
+      "hair_color": "n/a",
+      "skin_color": "gold",
+      "eye_color": "yellow",
+      "birth_year": "112BBY",
+      "gender": "n/a",
+      "species": "Droid",
+      "homeworld": "Tatooine"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 9,
+    "fields": {
+      "name": "Chewbacca",
+      "height": 228,
+      "mass": 112.0,
+      "hair_color": "brown",
+      "skin_color": "unknown",
+      "eye_color": "blue",
+      "birth_year": "200BBY",
+      "gender": "male",
+      "species": "Wookiee",
+      "homeworld": "Kashyyyk"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 10,
+    "fields": {
+      "name": "Emperor Palpatine",
+      "height": 170,
+      "mass": 75.0,
+      "hair_color": "grey",
+      "skin_color": "pale",
+      "eye_color": "yellow",
+      "birth_year": "82BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 11,
+    "fields": {
+      "name": "Lando Calrissian",
+      "height": 177,
+      "mass": 79.0,
+      "hair_color": "black",
+      "skin_color": "dark",
+      "eye_color": "brown",
+      "birth_year": "31BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Socorro"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 12,
+    "fields": {
+      "name": "Boba Fett",
+      "height": 183,
+      "mass": 78.0,
+      "hair_color": "black",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "31.5BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Kamino"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 13,
+    "fields": {
+      "name": "Jabba the Hutt",
+      "height": 175,
+      "mass": 1358.0,
+      "hair_color": "n/a",
+      "skin_color": "green-tan, brown",
+      "eye_color": "orange",
+      "birth_year": "600BBY",
+      "gender": "hermaphrodite",
+      "species": "Hutt",
+      "homeworld": "Nal Hutta"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 14,
+    "fields": {
+      "name": "Anakin Skywalker",
+      "height": 188,
+      "mass": 84.0,
+      "hair_color": "blond",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "41.9BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Tatooine"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 15,
+    "fields": {
+      "name": "Padm\u00e9 Amidala",
+      "height": 165,
+      "mass": 45.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "46BBY",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 16,
+    "fields": {
+      "name": "Mace Windu",
+      "height": 188,
+      "mass": 84.0,
+      "hair_color": "none",
+      "skin_color": "dark",
+      "eye_color": "brown",
+      "birth_year": "72BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Haruun Kal"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 17,
+    "fields": {
+      "name": "Qui-Gon Jinn",
+      "height": 193,
+      "mass": 89.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "92BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Coruscant"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 18,
+    "fields": {
+      "name": "Darth Maul",
+      "height": 175,
+      "mass": 80.0,
+      "hair_color": "none",
+      "skin_color": "red",
+      "eye_color": "yellow",
+      "birth_year": "54BBY",
+      "gender": "male",
+      "species": "Zabrak",
+      "homeworld": "Dathomir"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 19,
+    "fields": {
+      "name": "Count Dooku",
+      "height": 193,
+      "mass": 86.0,
+      "hair_color": "white",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "102BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Serenno"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 20,
+    "fields": {
+      "name": "General Grievous",
+      "height": 216,
+      "mass": 159.0,
+      "hair_color": "none",
+      "skin_color": "brown, white",
+      "eye_color": "green, yellow",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Kaleesh",
+      "homeworld": "Kalee"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 21,
+    "fields": {
+      "name": "Rey",
+      "height": 170,
+      "mass": 54.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "hazel",
+      "birth_year": "15ABY",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Jakku"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 22,
+    "fields": {
+      "name": "Kylo Ren",
+      "height": 189,
+      "mass": 89.0,
+      "hair_color": "black",
+      "skin_color": "pale",
+      "eye_color": "hazel",
+      "birth_year": "5ABY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Chandrila"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 23,
+    "fields": {
+      "name": "Finn",
+      "height": 178,
+      "mass": 73.0,
+      "hair_color": "black",
+      "skin_color": "dark",
+      "eye_color": "dark",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 24,
+    "fields": {
+      "name": "Poe Dameron",
+      "height": 172,
+      "mass": 80.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "2ABY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Yavin 4"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 25,
+    "fields": {
+      "name": "BB-8",
+      "height": 67,
+      "mass": 18.0,
+      "hair_color": "none",
+      "skin_color": "none",
+      "eye_color": "black",
+      "birth_year": "unknown",
+      "gender": "none",
+      "species": "Droid",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 26,
+    "fields": {
+      "name": "Maz Kanata",
+      "height": 95,
+      "mass": 30.0,
+      "hair_color": "none",
+      "skin_color": "green",
+      "eye_color": "yellow",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "unknown",
+      "homeworld": "Takodana"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 27,
+    "fields": {
+      "name": "Supreme Leader Snoke",
+      "height": 240,
+      "mass": 90.0,
+      "hair_color": "none",
+      "skin_color": "pale",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "unknown",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 28,
+    "fields": {
+      "name": "Captain Phasma",
+      "height": 200,
+      "mass": 86.0,
+      "hair_color": "unknown",
+      "skin_color": "unknown",
+      "eye_color": "unknown",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 29,
+    "fields": {
+      "name": "General Hux",
+      "height": 180,
+      "mass": 70.0,
+      "hair_color": "red",
+      "skin_color": "pale",
+      "eye_color": "green",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Arkanis"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 30,
+    "fields": {
+      "name": "Wedge Antilles",
+      "height": 170,
+      "mass": 77.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "hazel",
+      "birth_year": "21BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Corellia"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 31,
+    "fields": {
+      "name": "Admiral Ackbar",
+      "height": 180,
+      "mass": 83.0,
+      "hair_color": "none",
+      "skin_color": "brown mottle",
+      "eye_color": "orange",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Mon Calamari",
+      "homeworld": "Mon Cala"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 32,
+    "fields": {
+      "name": "Mon Mothma",
+      "height": 150,
+      "mass": 50.0,
+      "hair_color": "auburn",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "48BBY",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Chandrila"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 33,
+    "fields": {
+      "name": "Jyn Erso",
+      "height": 160,
+      "mass": 52.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "green",
+      "birth_year": "22BBY",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Vallt"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 34,
+    "fields": {
+      "name": "Cassian Andor",
+      "height": 185,
+      "mass": 77.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "26BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Fest"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 35,
+    "fields": {
+      "name": "Chirrut \u00cemwe",
+      "height": 185,
+      "mass": 80.0,
+      "hair_color": "black",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "52BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Jedha"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 36,
+    "fields": {
+      "name": "Baze Malbus",
+      "height": 190,
+      "mass": 90.0,
+      "hair_color": "black",
+      "skin_color": "dark",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Jedha"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 37,
+    "fields": {
+      "name": "K-2SO",
+      "height": 213,
+      "mass": 110.0,
+      "hair_color": "none",
+      "skin_color": "white",
+      "eye_color": "red",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Droid",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 38,
+    "fields": {
+      "name": "Director Krennic",
+      "height": 183,
+      "mass": 80.0,
+      "hair_color": "white",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 39,
+    "fields": {
+      "name": "Qi'ra",
+      "height": 165,
+      "mass": 50.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 40,
+    "fields": {
+      "name": "Tobias Beckett",
+      "height": 178,
+      "mass": 75.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Glee Anselm"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 41,
+    "fields": {
+      "name": "L3-37",
+      "height": 200,
+      "mass": 110.0,
+      "hair_color": "none",
+      "skin_color": "white",
+      "eye_color": "red",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Droid",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 42,
+    "fields": {
+      "name": "Dryden Vos",
+      "height": 180,
+      "mass": 85.0,
+      "hair_color": "black",
+      "skin_color": "pale",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 43,
+    "fields": {
+      "name": "Ahsoka Tano",
+      "height": 170,
+      "mass": 55.0,
+      "hair_color": "white",
+      "skin_color": "orange, white",
+      "eye_color": "blue",
+      "birth_year": "36BBY",
+      "gender": "female",
+      "species": "Togruta",
+      "homeworld": "Shili"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 44,
+    "fields": {
+      "name": "Captain Rex",
+      "height": 183,
+      "mass": 79.0,
+      "hair_color": "blond",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "32BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Kamino"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 45,
+    "fields": {
+      "name": "Commander Cody",
+      "height": 183,
+      "mass": 79.0,
+      "hair_color": "black",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "32BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Kamino"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 46,
+    "fields": {
+      "name": "Asajj Ventress",
+      "height": 180,
+      "mass": 67.0,
+      "hair_color": "none",
+      "skin_color": "white",
+      "eye_color": "yellow",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Dathomirian",
+      "homeworld": "Dathomir"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 47,
+    "fields": {
+      "name": "Savage Opress",
+      "height": 210,
+      "mass": 115.0,
+      "hair_color": "black",
+      "skin_color": "red",
+      "eye_color": "yellow",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Dathomirian",
+      "homeworld": "Dathomir"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 48,
+    "fields": {
+      "name": "Pre Vizsla",
+      "height": 185,
+      "mass": 85.0,
+      "hair_color": "black",
+      "skin_color": "pale",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Concord Dawn"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 49,
+    "fields": {
+      "name": "Nien Nunb",
+      "height": 160,
+      "mass": 68.0,
+      "hair_color": "none",
+      "skin_color": "grey",
+      "eye_color": "black",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Sullustan",
+      "homeworld": "Sullust"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 50,
+    "fields": {
+      "name": "Greedo",
+      "height": 173,
+      "mass": 74.0,
+      "hair_color": "n/a",
+      "skin_color": "green",
+      "eye_color": "black",
+      "birth_year": "44BBY",
+      "gender": "male",
+      "species": "Rodian",
+      "homeworld": "Rodia"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 51,
+    "fields": {
+      "name": "Wicket W. Warrick",
+      "height": 88,
+      "mass": 20.0,
+      "hair_color": "brown",
+      "skin_color": "brown",
+      "eye_color": "brown",
+      "birth_year": "8BBY",
+      "gender": "male",
+      "species": "Ewok",
+      "homeworld": "Endor"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 52,
+    "fields": {
+      "name": "Salacious B. Crumb",
+      "height": 79,
+      "mass": 30.0,
+      "hair_color": "orange",
+      "skin_color": "brown",
+      "eye_color": "orange",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Kowakian monkey-lizard",
+      "homeworld": "Kowak"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 53,
+    "fields": {
+      "name": "Bib Fortuna",
+      "height": 180,
+      "mass": 70.0,
+      "hair_color": "none",
+      "skin_color": "pale",
+      "eye_color": "pink",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Twi'lek",
+      "homeworld": "Ryloth"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 54,
+    "fields": {
+      "name": "Watto",
+      "height": 137,
+      "mass": 45.0,
+      "hair_color": "black",
+      "skin_color": "blue, grey",
+      "eye_color": "yellow",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Toydarian",
+      "homeworld": "Toydaria"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 55,
+    "fields": {
+      "name": "Sebulba",
+      "height": 112,
+      "mass": 40.0,
+      "hair_color": "none",
+      "skin_color": "grey, red",
+      "eye_color": "orange",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Dug",
+      "homeworld": "Malastare"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 56,
+    "fields": {
+      "name": "Shmi Skywalker",
+      "height": 163,
+      "mass": 60.0,
+      "hair_color": "black",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "72BBY",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Tatooine"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 57,
+    "fields": {
+      "name": "Darth Plagueis",
+      "height": 188,
+      "mass": 84.0,
+      "hair_color": "none",
+      "skin_color": "pale",
+      "eye_color": "yellow",
+      "birth_year": "147BBY",
+      "gender": "male",
+      "species": "Muun",
+      "homeworld": "Mygeeto"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 58,
+    "fields": {
+      "name": "Bail Organa",
+      "height": 191,
+      "mass": 85.0,
+      "hair_color": "black",
+      "skin_color": "tan",
+      "eye_color": "brown",
+      "birth_year": "67BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Alderaan"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 59,
+    "fields": {
+      "name": "Breha Organa",
+      "height": 165,
+      "mass": 55.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Alderaan"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 60,
+    "fields": {
+      "name": "Jango Fett",
+      "height": 183,
+      "mass": 79.0,
+      "hair_color": "black",
+      "skin_color": "tan",
+      "eye_color": "brown",
+      "birth_year": "66BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Concord Dawn"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 61,
+    "fields": {
+      "name": "Zam Wesell",
+      "height": 168,
+      "mass": 55.0,
+      "hair_color": "blonde",
+      "skin_color": "fair, green, yellow",
+      "eye_color": "yellow",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Clawdite",
+      "homeworld": "Zolan"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 62,
+    "fields": {
+      "name": "Dexter Jettster",
+      "height": 198,
+      "mass": 102.0,
+      "hair_color": "none",
+      "skin_color": "brown",
+      "eye_color": "yellow",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Besalisk",
+      "homeworld": "Ojom"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 63,
+    "fields": {
+      "name": "Lama Su",
+      "height": 229,
+      "mass": 88.0,
+      "hair_color": "none",
+      "skin_color": "grey",
+      "eye_color": "black",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Kaminoan",
+      "homeworld": "Kamino"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 64,
+    "fields": {
+      "name": "Taun We",
+      "height": 213,
+      "mass": 80.0,
+      "hair_color": "none",
+      "skin_color": "grey",
+      "eye_color": "black",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Kaminoan",
+      "homeworld": "Kamino"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 65,
+    "fields": {
+      "name": "Jocasta Nu",
+      "height": 167,
+      "mass": 65.0,
+      "hair_color": "white",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Coruscant"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 66,
+    "fields": {
+      "name": "Ratts Tyerell",
+      "height": 79,
+      "mass": 15.0,
+      "hair_color": "none",
+      "skin_color": "grey, blue",
+      "eye_color": "unknown",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Aleena",
+      "homeworld": "Aleen"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 67,
+    "fields": {
+      "name": "R4-P17",
+      "height": 96,
+      "mass": 32.0,
+      "hair_color": "none",
+      "skin_color": "silver, red",
+      "eye_color": "red, blue",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Droid",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 68,
+    "fields": {
+      "name": "Wat Tambor",
+      "height": 193,
+      "mass": 48.0,
+      "hair_color": "none",
+      "skin_color": "green, grey",
+      "eye_color": "unknown",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Skakoan",
+      "homeworld": "Skako"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 69,
+    "fields": {
+      "name": "San Hill",
+      "height": 191,
+      "mass": 48.0,
+      "hair_color": "none",
+      "skin_color": "grey",
+      "eye_color": "gold",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Muun",
+      "homeworld": "Scipio"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 70,
+    "fields": {
+      "name": "Shaak Ti",
+      "height": 178,
+      "mass": 57.0,
+      "hair_color": "none",
+      "skin_color": "red, blue, white",
+      "eye_color": "black",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Togruta",
+      "homeworld": "Shili"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 71,
+    "fields": {
+      "name": "Grievous' Bodyguard",
+      "height": 196,
+      "mass": 112.0,
+      "hair_color": "none",
+      "skin_color": "brown, white",
+      "eye_color": "green, yellow",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Kaleesh",
+      "homeworld": "Kalee"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 72,
+    "fields": {
+      "name": "General Tagge",
+      "height": 183,
+      "mass": 84.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 73,
+    "fields": {
+      "name": "Bren Derlin",
+      "height": 170,
+      "mass": 72.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Hoth"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 74,
+    "fields": {
+      "name": "Admiral Piett",
+      "height": 170,
+      "mass": 70.0,
+      "hair_color": "none",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Axxila"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 75,
+    "fields": {
+      "name": "Oola",
+      "height": 178,
+      "mass": 55.0,
+      "hair_color": "black",
+      "skin_color": "green",
+      "eye_color": "orange",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Twi'lek",
+      "homeworld": "Ryloth"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 76,
+    "fields": {
+      "name": "Aayla Secura",
+      "height": 170,
+      "mass": 55.0,
+      "hair_color": "none",
+      "skin_color": "blue",
+      "eye_color": "hazel",
+      "birth_year": "47BBY",
+      "gender": "female",
+      "species": "Twi'lek",
+      "homeworld": "Ryloth"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 77,
+    "fields": {
+      "name": "Plo Koon",
+      "height": 188,
+      "mass": 80.0,
+      "hair_color": "none",
+      "skin_color": "orange",
+      "eye_color": "black",
+      "birth_year": "22BBY",
+      "gender": "male",
+      "species": "Kel Dor",
+      "homeworld": "Dorin"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 78,
+    "fields": {
+      "name": "Ki-Adi-Mundi",
+      "height": 198,
+      "mass": 82.0,
+      "hair_color": "white",
+      "skin_color": "pale",
+      "eye_color": "yellow",
+      "birth_year": "92BBY",
+      "gender": "male",
+      "species": "Cerean",
+      "homeworld": "Cerea"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 79,
+    "fields": {
+      "name": "Kit Fisto",
+      "height": 196,
+      "mass": 87.0,
+      "hair_color": "none",
+      "skin_color": "green",
+      "eye_color": "black",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Nautolan",
+      "homeworld": "Glee Anselm"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 80,
+    "fields": {
+      "name": "Eeth Koth",
+      "height": 171,
+      "mass": 77.0,
+      "hair_color": "black",
+      "skin_color": "brown",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Zabrak",
+      "homeworld": "Iridonia"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 81,
+    "fields": {
+      "name": "Adi Gallia",
+      "height": 184,
+      "mass": 50.0,
+      "hair_color": "none",
+      "skin_color": "dark",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Tholothian",
+      "homeworld": "Coruscant"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 82,
+    "fields": {
+      "name": "Saesee Tiin",
+      "height": 188,
+      "mass": 86.0,
+      "hair_color": "none",
+      "skin_color": "pale",
+      "eye_color": "orange",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Iktotchi",
+      "homeworld": "Iktotch"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 83,
+    "fields": {
+      "name": "Yarael Poof",
+      "height": 264,
+      "mass": 70.0,
+      "hair_color": "none",
+      "skin_color": "white",
+      "eye_color": "yellow",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Quermian",
+      "homeworld": "Quermia"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 84,
+    "fields": {
+      "name": "Luminara Unduli",
+      "height": 170,
+      "mass": 56.0,
+      "hair_color": "black",
+      "skin_color": "yellow",
+      "eye_color": "blue",
+      "birth_year": "58BBY",
+      "gender": "female",
+      "species": "Mirialan",
+      "homeworld": "Mirial"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 85,
+    "fields": {
+      "name": "Barriss Offee",
+      "height": 166,
+      "mass": 50.0,
+      "hair_color": "black",
+      "skin_color": "yellow",
+      "eye_color": "blue",
+      "birth_year": "40BBY",
+      "gender": "female",
+      "species": "Mirialan",
+      "homeworld": "Mirial"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 86,
+    "fields": {
+      "name": "Dorm\u00e9",
+      "height": 165,
+      "mass": 50.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 87,
+    "fields": {
+      "name": "Dooku's Assassin",
+      "height": 170,
+      "mass": 60.0,
+      "hair_color": "black",
+      "skin_color": "pale",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 88,
+    "fields": {
+      "name": "Agen Kolar",
+      "height": 180,
+      "mass": 80.0,
+      "hair_color": "black",
+      "skin_color": "green",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Zabrak",
+      "homeworld": "Iridonia"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 89,
+    "fields": {
+      "name": "Jar Jar Binks",
+      "height": 196,
+      "mass": 66.0,
+      "hair_color": "none",
+      "skin_color": "orange",
+      "eye_color": "orange",
+      "birth_year": "52BBY",
+      "gender": "male",
+      "species": "Gungan",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 90,
+    "fields": {
+      "name": "Roos Tarpals",
+      "height": 224,
+      "mass": 82.0,
+      "hair_color": "none",
+      "skin_color": "grey",
+      "eye_color": "orange",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Gungan",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 91,
+    "fields": {
+      "name": "Rugor Nass",
+      "height": 206,
+      "mass": null,
+      "hair_color": "none",
+      "skin_color": "green",
+      "eye_color": "orange",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Gungan",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 92,
+    "fields": {
+      "name": "Ric Oli\u00e9",
+      "height": 183,
+      "mass": 80.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 93,
+    "fields": {
+      "name": "Quarsh Panaka",
+      "height": 183,
+      "mass": 80.0,
+      "hair_color": "black",
+      "skin_color": "dark",
+      "eye_color": "brown",
+      "birth_year": "62BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 94,
+    "fields": {
+      "name": "Gregar Typho",
+      "height": 185,
+      "mass": 85.0,
+      "hair_color": "black",
+      "skin_color": "dark",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 95,
+    "fields": {
+      "name": "Cord\u00e9",
+      "height": 157,
+      "mass": 50.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Naboo"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 96,
+    "fields": {
+      "name": "Cliegg Lars",
+      "height": 183,
+      "mass": 80.0,
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "82BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Tatooine"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 97,
+    "fields": {
+      "name": "Boba Fett (Young)",
+      "height": 120,
+      "mass": 30.0,
+      "hair_color": "black",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "31.5BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Kamino"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 98,
+    "fields": {
+      "name": "Zam Wesell's Droid",
+      "height": 100,
+      "mass": 50.0,
+      "hair_color": "none",
+      "skin_color": "silver",
+      "eye_color": "red",
+      "birth_year": "unknown",
+      "gender": "none",
+      "species": "Droid",
+      "homeworld": "unknown"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 99,
+    "fields": {
+      "name": "Luke Skywalker",
+      "height": 172,
+      "mass": 77.0,
+      "hair_color": "blond",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "19BBY",
+      "gender": "male",
+      "species": "Human",
+      "homeworld": "Tatooine"
+    }
+  },
+  {
+    "model": "people.People",
+    "pk": 100,
+    "fields": {
+      "name": "Leia Organa",
+      "height": 150,
+      "mass": 49.0,
+      "hair_color": "brown",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "19BBY",
+      "gender": "female",
+      "species": "Human",
+      "homeworld": "Alderaan"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 1,
+    "fields": {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "episode_id": 1,
+      "opening_crawl": "Turmoil has engulfed the Galactic Republic...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "1999-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 2,
+    "fields": {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "episode_id": 2,
+      "opening_crawl": "There is unrest in the Galactic Senate...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2002-05-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 3,
+    "fields": {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "episode_id": 3,
+      "opening_crawl": "War! The Republic is crumbling...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2005-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 4,
+    "fields": {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "episode_id": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "George Lucas",
+      "producer": "Gary Kurtz",
+      "release_date": "1977-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 5,
+    "fields": {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "episode_id": 5,
+      "opening_crawl": "It is a dark time for the Rebellion...",
+      "director": "Irvin Kershner",
+      "producer": "Gary Kurtz",
+      "release_date": "1980-05-21"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 6,
+    "fields": {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "episode_id": 6,
+      "opening_crawl": "Luke Skywalker has returned to his home planet...",
+      "director": "Richard Marquand",
+      "producer": "Howard G. Kazanjian",
+      "release_date": "1983-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 7,
+    "fields": {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "episode_id": 7,
+      "opening_crawl": "Luke Skywalker has vanished...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
+      "release_date": "2015-12-18"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 8,
+    "fields": {
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "episode_id": 8,
+      "opening_crawl": "The FIRST ORDER reigns...",
+      "director": "Rian Johnson",
+      "producer": "Kathleen Kennedy, Ram Bergman",
+      "release_date": "2017-12-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 9,
+    "fields": {
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "episode_id": 9,
+      "opening_crawl": "The dead speak!...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+      "release_date": "2019-12-20"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 10,
+    "fields": {
+      "title": "Rogue One: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "Gareth Edwards",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2016-12-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 11,
+    "fields": {
+      "title": "Solo: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a lawless time...",
+      "director": "Ron Howard",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2018-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 12,
+    "fields": {
+      "title": "Star Wars: The Clone Wars",
+      "episode_id": null,
+      "opening_crawl": "Under the leadership of Obi-Wan Kenobi...",
+      "director": "Dave Filoni",
+      "producer": "Catherine Winder",
+      "release_date": "2008-08-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 13,
+    "fields": {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "episode_id": 1,
+      "opening_crawl": "Turmoil has engulfed the Galactic Republic...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "1999-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 14,
+    "fields": {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "episode_id": 2,
+      "opening_crawl": "There is unrest in the Galactic Senate...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2002-05-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 15,
+    "fields": {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "episode_id": 3,
+      "opening_crawl": "War! The Republic is crumbling...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2005-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 16,
+    "fields": {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "episode_id": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "George Lucas",
+      "producer": "Gary Kurtz",
+      "release_date": "1977-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 17,
+    "fields": {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "episode_id": 5,
+      "opening_crawl": "It is a dark time for the Rebellion...",
+      "director": "Irvin Kershner",
+      "producer": "Gary Kurtz",
+      "release_date": "1980-05-21"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 18,
+    "fields": {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "episode_id": 6,
+      "opening_crawl": "Luke Skywalker has returned to his home planet...",
+      "director": "Richard Marquand",
+      "producer": "Howard G. Kazanjian",
+      "release_date": "1983-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 19,
+    "fields": {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "episode_id": 7,
+      "opening_crawl": "Luke Skywalker has vanished...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
+      "release_date": "2015-12-18"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 20,
+    "fields": {
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "episode_id": 8,
+      "opening_crawl": "The FIRST ORDER reigns...",
+      "director": "Rian Johnson",
+      "producer": "Kathleen Kennedy, Ram Bergman",
+      "release_date": "2017-12-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 21,
+    "fields": {
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "episode_id": 9,
+      "opening_crawl": "The dead speak!...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+      "release_date": "2019-12-20"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 22,
+    "fields": {
+      "title": "Rogue One: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "Gareth Edwards",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2016-12-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 23,
+    "fields": {
+      "title": "Solo: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a lawless time...",
+      "director": "Ron Howard",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2018-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 24,
+    "fields": {
+      "title": "Star Wars: The Clone Wars",
+      "episode_id": null,
+      "opening_crawl": "Under the leadership of Obi-Wan Kenobi...",
+      "director": "Dave Filoni",
+      "producer": "Catherine Winder",
+      "release_date": "2008-08-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 25,
+    "fields": {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "episode_id": 1,
+      "opening_crawl": "Turmoil has engulfed the Galactic Republic...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "1999-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 26,
+    "fields": {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "episode_id": 2,
+      "opening_crawl": "There is unrest in the Galactic Senate...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2002-05-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 27,
+    "fields": {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "episode_id": 3,
+      "opening_crawl": "War! The Republic is crumbling...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2005-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 28,
+    "fields": {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "episode_id": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "George Lucas",
+      "producer": "Gary Kurtz",
+      "release_date": "1977-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 29,
+    "fields": {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "episode_id": 5,
+      "opening_crawl": "It is a dark time for the Rebellion...",
+      "director": "Irvin Kershner",
+      "producer": "Gary Kurtz",
+      "release_date": "1980-05-21"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 30,
+    "fields": {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "episode_id": 6,
+      "opening_crawl": "Luke Skywalker has returned to his home planet...",
+      "director": "Richard Marquand",
+      "producer": "Howard G. Kazanjian",
+      "release_date": "1983-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 31,
+    "fields": {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "episode_id": 7,
+      "opening_crawl": "Luke Skywalker has vanished...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
+      "release_date": "2015-12-18"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 32,
+    "fields": {
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "episode_id": 8,
+      "opening_crawl": "The FIRST ORDER reigns...",
+      "director": "Rian Johnson",
+      "producer": "Kathleen Kennedy, Ram Bergman",
+      "release_date": "2017-12-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 33,
+    "fields": {
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "episode_id": 9,
+      "opening_crawl": "The dead speak!...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+      "release_date": "2019-12-20"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 34,
+    "fields": {
+      "title": "Rogue One: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "Gareth Edwards",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2016-12-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 35,
+    "fields": {
+      "title": "Solo: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a lawless time...",
+      "director": "Ron Howard",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2018-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 36,
+    "fields": {
+      "title": "Star Wars: The Clone Wars",
+      "episode_id": null,
+      "opening_crawl": "Under the leadership of Obi-Wan Kenobi...",
+      "director": "Dave Filoni",
+      "producer": "Catherine Winder",
+      "release_date": "2008-08-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 37,
+    "fields": {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "episode_id": 1,
+      "opening_crawl": "Turmoil has engulfed the Galactic Republic...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "1999-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 38,
+    "fields": {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "episode_id": 2,
+      "opening_crawl": "There is unrest in the Galactic Senate...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2002-05-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 39,
+    "fields": {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "episode_id": 3,
+      "opening_crawl": "War! The Republic is crumbling...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2005-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 40,
+    "fields": {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "episode_id": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "George Lucas",
+      "producer": "Gary Kurtz",
+      "release_date": "1977-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 41,
+    "fields": {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "episode_id": 5,
+      "opening_crawl": "It is a dark time for the Rebellion...",
+      "director": "Irvin Kershner",
+      "producer": "Gary Kurtz",
+      "release_date": "1980-05-21"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 42,
+    "fields": {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "episode_id": 6,
+      "opening_crawl": "Luke Skywalker has returned to his home planet...",
+      "director": "Richard Marquand",
+      "producer": "Howard G. Kazanjian",
+      "release_date": "1983-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 43,
+    "fields": {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "episode_id": 7,
+      "opening_crawl": "Luke Skywalker has vanished...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
+      "release_date": "2015-12-18"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 44,
+    "fields": {
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "episode_id": 8,
+      "opening_crawl": "The FIRST ORDER reigns...",
+      "director": "Rian Johnson",
+      "producer": "Kathleen Kennedy, Ram Bergman",
+      "release_date": "2017-12-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 45,
+    "fields": {
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "episode_id": 9,
+      "opening_crawl": "The dead speak!...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+      "release_date": "2019-12-20"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 46,
+    "fields": {
+      "title": "Rogue One: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "Gareth Edwards",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2016-12-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 47,
+    "fields": {
+      "title": "Solo: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a lawless time...",
+      "director": "Ron Howard",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2018-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 48,
+    "fields": {
+      "title": "Star Wars: The Clone Wars",
+      "episode_id": null,
+      "opening_crawl": "Under the leadership of Obi-Wan Kenobi...",
+      "director": "Dave Filoni",
+      "producer": "Catherine Winder",
+      "release_date": "2008-08-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 49,
+    "fields": {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "episode_id": 1,
+      "opening_crawl": "Turmoil has engulfed the Galactic Republic...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "1999-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 50,
+    "fields": {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "episode_id": 2,
+      "opening_crawl": "There is unrest in the Galactic Senate...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2002-05-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 51,
+    "fields": {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "episode_id": 3,
+      "opening_crawl": "War! The Republic is crumbling...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2005-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 52,
+    "fields": {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "episode_id": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "George Lucas",
+      "producer": "Gary Kurtz",
+      "release_date": "1977-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 53,
+    "fields": {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "episode_id": 5,
+      "opening_crawl": "It is a dark time for the Rebellion...",
+      "director": "Irvin Kershner",
+      "producer": "Gary Kurtz",
+      "release_date": "1980-05-21"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 54,
+    "fields": {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "episode_id": 6,
+      "opening_crawl": "Luke Skywalker has returned to his home planet...",
+      "director": "Richard Marquand",
+      "producer": "Howard G. Kazanjian",
+      "release_date": "1983-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 55,
+    "fields": {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "episode_id": 7,
+      "opening_crawl": "Luke Skywalker has vanished...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
+      "release_date": "2015-12-18"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 56,
+    "fields": {
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "episode_id": 8,
+      "opening_crawl": "The FIRST ORDER reigns...",
+      "director": "Rian Johnson",
+      "producer": "Kathleen Kennedy, Ram Bergman",
+      "release_date": "2017-12-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 57,
+    "fields": {
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "episode_id": 9,
+      "opening_crawl": "The dead speak!...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+      "release_date": "2019-12-20"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 58,
+    "fields": {
+      "title": "Rogue One: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "Gareth Edwards",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2016-12-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 59,
+    "fields": {
+      "title": "Solo: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a lawless time...",
+      "director": "Ron Howard",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2018-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 60,
+    "fields": {
+      "title": "Star Wars: The Clone Wars",
+      "episode_id": null,
+      "opening_crawl": "Under the leadership of Obi-Wan Kenobi...",
+      "director": "Dave Filoni",
+      "producer": "Catherine Winder",
+      "release_date": "2008-08-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 61,
+    "fields": {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "episode_id": 1,
+      "opening_crawl": "Turmoil has engulfed the Galactic Republic...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "1999-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 62,
+    "fields": {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "episode_id": 2,
+      "opening_crawl": "There is unrest in the Galactic Senate...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2002-05-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 63,
+    "fields": {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "episode_id": 3,
+      "opening_crawl": "War! The Republic is crumbling...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2005-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 64,
+    "fields": {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "episode_id": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "George Lucas",
+      "producer": "Gary Kurtz",
+      "release_date": "1977-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 65,
+    "fields": {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "episode_id": 5,
+      "opening_crawl": "It is a dark time for the Rebellion...",
+      "director": "Irvin Kershner",
+      "producer": "Gary Kurtz",
+      "release_date": "1980-05-21"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 66,
+    "fields": {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "episode_id": 6,
+      "opening_crawl": "Luke Skywalker has returned to his home planet...",
+      "director": "Richard Marquand",
+      "producer": "Howard G. Kazanjian",
+      "release_date": "1983-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 67,
+    "fields": {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "episode_id": 7,
+      "opening_crawl": "Luke Skywalker has vanished...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
+      "release_date": "2015-12-18"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 68,
+    "fields": {
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "episode_id": 8,
+      "opening_crawl": "The FIRST ORDER reigns...",
+      "director": "Rian Johnson",
+      "producer": "Kathleen Kennedy, Ram Bergman",
+      "release_date": "2017-12-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 69,
+    "fields": {
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "episode_id": 9,
+      "opening_crawl": "The dead speak!...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+      "release_date": "2019-12-20"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 70,
+    "fields": {
+      "title": "Rogue One: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "Gareth Edwards",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2016-12-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 71,
+    "fields": {
+      "title": "Solo: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a lawless time...",
+      "director": "Ron Howard",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2018-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 72,
+    "fields": {
+      "title": "Star Wars: The Clone Wars",
+      "episode_id": null,
+      "opening_crawl": "Under the leadership of Obi-Wan Kenobi...",
+      "director": "Dave Filoni",
+      "producer": "Catherine Winder",
+      "release_date": "2008-08-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 73,
+    "fields": {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "episode_id": 1,
+      "opening_crawl": "Turmoil has engulfed the Galactic Republic...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "1999-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 74,
+    "fields": {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "episode_id": 2,
+      "opening_crawl": "There is unrest in the Galactic Senate...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2002-05-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 75,
+    "fields": {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "episode_id": 3,
+      "opening_crawl": "War! The Republic is crumbling...",
+      "director": "George Lucas",
+      "producer": "Rick McCallum",
+      "release_date": "2005-05-19"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 76,
+    "fields": {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "episode_id": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "George Lucas",
+      "producer": "Gary Kurtz",
+      "release_date": "1977-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 77,
+    "fields": {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "episode_id": 5,
+      "opening_crawl": "It is a dark time for the Rebellion...",
+      "director": "Irvin Kershner",
+      "producer": "Gary Kurtz",
+      "release_date": "1980-05-21"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 78,
+    "fields": {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "episode_id": 6,
+      "opening_crawl": "Luke Skywalker has returned to his home planet...",
+      "director": "Richard Marquand",
+      "producer": "Howard G. Kazanjian",
+      "release_date": "1983-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 79,
+    "fields": {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "episode_id": 7,
+      "opening_crawl": "Luke Skywalker has vanished...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
+      "release_date": "2015-12-18"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 80,
+    "fields": {
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "episode_id": 8,
+      "opening_crawl": "The FIRST ORDER reigns...",
+      "director": "Rian Johnson",
+      "producer": "Kathleen Kennedy, Ram Bergman",
+      "release_date": "2017-12-15"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 81,
+    "fields": {
+      "title": "Star Wars: Episode IX - The Rise of Skywalker",
+      "episode_id": 9,
+      "opening_crawl": "The dead speak!...",
+      "director": "J.J. Abrams",
+      "producer": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+      "release_date": "2019-12-20"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 82,
+    "fields": {
+      "title": "Rogue One: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "Gareth Edwards",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2016-12-16"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 83,
+    "fields": {
+      "title": "Solo: A Star Wars Story",
+      "episode_id": null,
+      "opening_crawl": "It is a lawless time...",
+      "director": "Ron Howard",
+      "producer": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "release_date": "2018-05-25"
+    }
+  },
+  {
+    "model": "films.Films",
+    "pk": 84,
+    "fields": {
+      "title": "Star Wars: The Clone Wars",
+      "episode_id": null,
+      "opening_crawl": "Under the leadership of Obi-Wan Kenobi...",
+      "director": "Dave Filoni",
+      "producer": "Catherine Winder",
+      "release_date": "2008-08-15"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 1,
+    "fields": {
+      "name": "X-wing Starfighter",
+      "model": "T-65B X-wing",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "149999",
+      "length": 12.5,
+      "max_atmosphering_speed": "1050",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "100",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 2,
+    "fields": {
+      "name": "Y-wing Starfighter",
+      "model": "BTL Y-wing",
+      "manufacturer": "Koensayr Manufacturing",
+      "cost_in_credits": "134999",
+      "length": 14.0,
+      "max_atmosphering_speed": "1000",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "80",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 3,
+    "fields": {
+      "name": "A-wing Starfighter",
+      "model": "RZ-1 A-wing Interceptor",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "175000",
+      "length": 9.6,
+      "max_atmosphering_speed": "1300",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "120",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 4,
+    "fields": {
+      "name": "B-wing Starfighter",
+      "model": "A/SF-01 B-wing",
+      "manufacturer": "Slayn & Korpil",
+      "cost_in_credits": "220000",
+      "length": 16.9,
+      "max_atmosphering_speed": "950",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "45",
+      "consumables": "1 week",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "91",
+      "starship_class": "Assault Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 5,
+    "fields": {
+      "name": "TIE Fighter",
+      "model": "Twin Ion Engine/Ln Starfighter",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "75000",
+      "length": 6.4,
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "65",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "100",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 6,
+    "fields": {
+      "name": "TIE Interceptor",
+      "model": "Twin Ion Engine/IN Interceptor",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 9.6,
+      "max_atmosphering_speed": "1250",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "75",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "111",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 7,
+    "fields": {
+      "name": "TIE Bomber",
+      "model": "Twin Ion Engine/sa Bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 7.8,
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "60",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 8,
+    "fields": {
+      "name": "TIE Advanced x1",
+      "model": "Twin Ion Engine Advanced x1",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 9.2,
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "150",
+      "consumables": "5 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "105",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 9,
+    "fields": {
+      "name": "TIE Silencer",
+      "model": "First Order TIE Silencer",
+      "manufacturer": "Sienar-Jaemus Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 17.2,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 10,
+    "fields": {
+      "name": "Millennium Falcon",
+      "model": "YT-1300 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "100000",
+      "length": 34.37,
+      "max_atmosphering_speed": "1050",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "100000",
+      "consumables": "2 months",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "75",
+      "starship_class": "Light freighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 11,
+    "fields": {
+      "name": "Slave I",
+      "model": "Firespray-31-class patrol and attack",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "unknown",
+      "length": 21.5,
+      "max_atmosphering_speed": "1000",
+      "crew": "1",
+      "passengers": "6",
+      "cargo_capacity": "70000",
+      "consumables": "1 month",
+      "hyperdrive_rating": "3.0",
+      "MGLT": "70",
+      "starship_class": "Patrol craft"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 12,
+    "fields": {
+      "name": "Razor Crest",
+      "model": "ST-70 class Razor Crest M-111",
+      "manufacturer": "unknown",
+      "cost_in_credits": "unknown",
+      "length": 80.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "5",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Gunship"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 13,
+    "fields": {
+      "name": "Imperial Star Destroyer",
+      "model": "Imperial I-class Star Destroyer",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "150000000",
+      "length": 1600.0,
+      "max_atmosphering_speed": "975",
+      "crew": "47060",
+      "passengers": "0",
+      "cargo_capacity": "36000000",
+      "consumables": "2 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "Star Destroyer"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 14,
+    "fields": {
+      "name": "Super Star Destroyer",
+      "model": "Executor-class Star Dreadnought",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "1143350000",
+      "length": 19000.0,
+      "max_atmosphering_speed": "n/a",
+      "crew": "279144",
+      "passengers": "38000",
+      "cargo_capacity": "250000000",
+      "consumables": "6 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "40",
+      "starship_class": "Star Dreadnought"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 15,
+    "fields": {
+      "name": "MC80 Liberty type Star Cruiser",
+      "model": "MC80 Liberty type Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 1200.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "5400",
+      "passengers": "1200",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "60",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 16,
+    "fields": {
+      "name": "MC85 Star Cruiser",
+      "model": "MC85 Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 3438.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "unknown",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 17,
+    "fields": {
+      "name": "Jedi Starfighter",
+      "model": "Delta-7 Aethersprite-class light interceptor",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "180000",
+      "length": 8.0,
+      "max_atmosphering_speed": "1150",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "60",
+      "consumables": "7 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "unknown",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 18,
+    "fields": {
+      "name": "Naboo Royal Starship",
+      "model": "J-type 327 Nubian royal starship",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "cost_in_credits": "unknown",
+      "length": 76.0,
+      "max_atmosphering_speed": "920",
+      "crew": "8",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "1.8",
+      "MGLT": "unknown",
+      "starship_class": "yacht"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 19,
+    "fields": {
+      "name": "Naboo Star Skiff",
+      "model": "J-type star skiff",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "cost_in_credits": "unknown",
+      "length": 29.2,
+      "max_atmosphering_speed": "1050",
+      "crew": "3",
+      "passengers": "3",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "unknown",
+      "starship_class": "yacht"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 20,
+    "fields": {
+      "name": "Republic Cruiser",
+      "model": "Consular-class cruiser",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "unknown",
+      "length": 115.0,
+      "max_atmosphering_speed": "900",
+      "crew": "9",
+      "passengers": "16",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "unknown",
+      "starship_class": "Space cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 21,
+    "fields": {
+      "name": "Republic Attack Cruiser",
+      "model": "Acclamator I-class assault ship",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 752.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "700",
+      "passengers": "16000",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "0.6",
+      "MGLT": "unknown",
+      "starship_class": "assault ship"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 22,
+    "fields": {
+      "name": "Death Star",
+      "model": "DS-1 Orbital Battle Station",
+      "manufacturer": "Imperial Department of Military Research",
+      "cost_in_credits": "1000000000000",
+      "length": 120000.0,
+      "max_atmosphering_speed": "n/a",
+      "crew": "342953",
+      "passengers": "843342",
+      "cargo_capacity": "1000000000000",
+      "consumables": "3 years",
+      "hyperdrive_rating": "4.0",
+      "MGLT": "10",
+      "starship_class": "Deep Space Mobile Battlestation"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 23,
+    "fields": {
+      "name": "Home One",
+      "model": "MC80 Liberty type Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 1200.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "5400",
+      "passengers": "1200",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "60",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 24,
+    "fields": {
+      "name": "Ghost",
+      "model": "VCX-100 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "unknown",
+      "length": 43.9,
+      "max_atmosphering_speed": "unknown",
+      "crew": "4",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Light freighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 25,
+    "fields": {
+      "name": "Tantive IV",
+      "model": "CR90 corvette",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "3500000",
+      "length": 150.0,
+      "max_atmosphering_speed": "950",
+      "crew": "165",
+      "passengers": "600",
+      "cargo_capacity": "unknown",
+      "consumables": "1 year",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "Corvette"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 26,
+    "fields": {
+      "name": "Star Destroyer Resurgent",
+      "model": "Resurgent-class Star Destroyer",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 2915.81,
+      "max_atmosphering_speed": "unknown",
+      "crew": "unknown",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Star Destroyer"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 27,
+    "fields": {
+      "name": "X-wing Starfighter",
+      "model": "T-65B X-wing",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "149999",
+      "length": 12.5,
+      "max_atmosphering_speed": "1050",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "100",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 28,
+    "fields": {
+      "name": "Y-wing Starfighter",
+      "model": "BTL Y-wing",
+      "manufacturer": "Koensayr Manufacturing",
+      "cost_in_credits": "134999",
+      "length": 14.0,
+      "max_atmosphering_speed": "1000",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "80",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 29,
+    "fields": {
+      "name": "A-wing Starfighter",
+      "model": "RZ-1 A-wing Interceptor",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "175000",
+      "length": 9.6,
+      "max_atmosphering_speed": "1300",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "120",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 30,
+    "fields": {
+      "name": "B-wing Starfighter",
+      "model": "A/SF-01 B-wing",
+      "manufacturer": "Slayn & Korpil",
+      "cost_in_credits": "220000",
+      "length": 16.9,
+      "max_atmosphering_speed": "950",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "45",
+      "consumables": "1 week",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "91",
+      "starship_class": "Assault Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 31,
+    "fields": {
+      "name": "TIE Fighter",
+      "model": "Twin Ion Engine/Ln Starfighter",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "75000",
+      "length": 6.4,
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "65",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "100",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 32,
+    "fields": {
+      "name": "TIE Interceptor",
+      "model": "Twin Ion Engine/IN Interceptor",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 9.6,
+      "max_atmosphering_speed": "1250",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "75",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "111",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 33,
+    "fields": {
+      "name": "TIE Bomber",
+      "model": "Twin Ion Engine/sa Bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 7.8,
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "60",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 34,
+    "fields": {
+      "name": "TIE Advanced x1",
+      "model": "Twin Ion Engine Advanced x1",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 9.2,
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "150",
+      "consumables": "5 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "105",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 35,
+    "fields": {
+      "name": "TIE Silencer",
+      "model": "First Order TIE Silencer",
+      "manufacturer": "Sienar-Jaemus Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 17.2,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 36,
+    "fields": {
+      "name": "Millennium Falcon",
+      "model": "YT-1300 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "100000",
+      "length": 34.37,
+      "max_atmosphering_speed": "1050",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "100000",
+      "consumables": "2 months",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "75",
+      "starship_class": "Light freighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 37,
+    "fields": {
+      "name": "Slave I",
+      "model": "Firespray-31-class patrol and attack",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "unknown",
+      "length": 21.5,
+      "max_atmosphering_speed": "1000",
+      "crew": "1",
+      "passengers": "6",
+      "cargo_capacity": "70000",
+      "consumables": "1 month",
+      "hyperdrive_rating": "3.0",
+      "MGLT": "70",
+      "starship_class": "Patrol craft"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 38,
+    "fields": {
+      "name": "Razor Crest",
+      "model": "ST-70 class Razor Crest M-111",
+      "manufacturer": "unknown",
+      "cost_in_credits": "unknown",
+      "length": 80.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "5",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Gunship"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 39,
+    "fields": {
+      "name": "Imperial Star Destroyer",
+      "model": "Imperial I-class Star Destroyer",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "150000000",
+      "length": 1600.0,
+      "max_atmosphering_speed": "975",
+      "crew": "47060",
+      "passengers": "0",
+      "cargo_capacity": "36000000",
+      "consumables": "2 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "Star Destroyer"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 40,
+    "fields": {
+      "name": "Super Star Destroyer",
+      "model": "Executor-class Star Dreadnought",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "1143350000",
+      "length": 19000.0,
+      "max_atmosphering_speed": "n/a",
+      "crew": "279144",
+      "passengers": "38000",
+      "cargo_capacity": "250000000",
+      "consumables": "6 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "40",
+      "starship_class": "Star Dreadnought"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 41,
+    "fields": {
+      "name": "MC80 Liberty type Star Cruiser",
+      "model": "MC80 Liberty type Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 1200.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "5400",
+      "passengers": "1200",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "60",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 42,
+    "fields": {
+      "name": "MC85 Star Cruiser",
+      "model": "MC85 Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 3438.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "unknown",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 43,
+    "fields": {
+      "name": "Jedi Starfighter",
+      "model": "Delta-7 Aethersprite-class light interceptor",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "180000",
+      "length": 8.0,
+      "max_atmosphering_speed": "1150",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "60",
+      "consumables": "7 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "unknown",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 44,
+    "fields": {
+      "name": "Naboo Royal Starship",
+      "model": "J-type 327 Nubian royal starship",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "cost_in_credits": "unknown",
+      "length": 76.0,
+      "max_atmosphering_speed": "920",
+      "crew": "8",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "1.8",
+      "MGLT": "unknown",
+      "starship_class": "yacht"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 45,
+    "fields": {
+      "name": "Naboo Star Skiff",
+      "model": "J-type star skiff",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "cost_in_credits": "unknown",
+      "length": 29.2,
+      "max_atmosphering_speed": "1050",
+      "crew": "3",
+      "passengers": "3",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "unknown",
+      "starship_class": "yacht"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 46,
+    "fields": {
+      "name": "Republic Cruiser",
+      "model": "Consular-class cruiser",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "unknown",
+      "length": 115.0,
+      "max_atmosphering_speed": "900",
+      "crew": "9",
+      "passengers": "16",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "unknown",
+      "starship_class": "Space cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 47,
+    "fields": {
+      "name": "Republic Attack Cruiser",
+      "model": "Acclamator I-class assault ship",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 752.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "700",
+      "passengers": "16000",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "0.6",
+      "MGLT": "unknown",
+      "starship_class": "assault ship"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 48,
+    "fields": {
+      "name": "Death Star",
+      "model": "DS-1 Orbital Battle Station",
+      "manufacturer": "Imperial Department of Military Research",
+      "cost_in_credits": "1000000000000",
+      "length": 120000.0,
+      "max_atmosphering_speed": "n/a",
+      "crew": "342953",
+      "passengers": "843342",
+      "cargo_capacity": "1000000000000",
+      "consumables": "3 years",
+      "hyperdrive_rating": "4.0",
+      "MGLT": "10",
+      "starship_class": "Deep Space Mobile Battlestation"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 49,
+    "fields": {
+      "name": "Home One",
+      "model": "MC80 Liberty type Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 1200.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "5400",
+      "passengers": "1200",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "60",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 50,
+    "fields": {
+      "name": "Ghost",
+      "model": "VCX-100 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "unknown",
+      "length": 43.9,
+      "max_atmosphering_speed": "unknown",
+      "crew": "4",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Light freighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 51,
+    "fields": {
+      "name": "Tantive IV",
+      "model": "CR90 corvette",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "3500000",
+      "length": 150.0,
+      "max_atmosphering_speed": "950",
+      "crew": "165",
+      "passengers": "600",
+      "cargo_capacity": "unknown",
+      "consumables": "1 year",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "Corvette"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 52,
+    "fields": {
+      "name": "Star Destroyer Resurgent",
+      "model": "Resurgent-class Star Destroyer",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 2915.81,
+      "max_atmosphering_speed": "unknown",
+      "crew": "unknown",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Star Destroyer"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 53,
+    "fields": {
+      "name": "X-wing Starfighter",
+      "model": "T-65B X-wing",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "149999",
+      "length": 12.5,
+      "max_atmosphering_speed": "1050",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "100",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 54,
+    "fields": {
+      "name": "Y-wing Starfighter",
+      "model": "BTL Y-wing",
+      "manufacturer": "Koensayr Manufacturing",
+      "cost_in_credits": "134999",
+      "length": 14.0,
+      "max_atmosphering_speed": "1000",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "80",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 55,
+    "fields": {
+      "name": "A-wing Starfighter",
+      "model": "RZ-1 A-wing Interceptor",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "175000",
+      "length": 9.6,
+      "max_atmosphering_speed": "1300",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "120",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 56,
+    "fields": {
+      "name": "B-wing Starfighter",
+      "model": "A/SF-01 B-wing",
+      "manufacturer": "Slayn & Korpil",
+      "cost_in_credits": "220000",
+      "length": 16.9,
+      "max_atmosphering_speed": "950",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "45",
+      "consumables": "1 week",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "91",
+      "starship_class": "Assault Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 57,
+    "fields": {
+      "name": "TIE Fighter",
+      "model": "Twin Ion Engine/Ln Starfighter",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "75000",
+      "length": 6.4,
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "65",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "100",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 58,
+    "fields": {
+      "name": "TIE Interceptor",
+      "model": "Twin Ion Engine/IN Interceptor",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 9.6,
+      "max_atmosphering_speed": "1250",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "75",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "111",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 59,
+    "fields": {
+      "name": "TIE Bomber",
+      "model": "Twin Ion Engine/sa Bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 7.8,
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "60",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 60,
+    "fields": {
+      "name": "TIE Advanced x1",
+      "model": "Twin Ion Engine Advanced x1",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 9.2,
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "150",
+      "consumables": "5 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "105",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 61,
+    "fields": {
+      "name": "TIE Silencer",
+      "model": "First Order TIE Silencer",
+      "manufacturer": "Sienar-Jaemus Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 17.2,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 62,
+    "fields": {
+      "name": "Millennium Falcon",
+      "model": "YT-1300 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "100000",
+      "length": 34.37,
+      "max_atmosphering_speed": "1050",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "100000",
+      "consumables": "2 months",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "75",
+      "starship_class": "Light freighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 63,
+    "fields": {
+      "name": "Slave I",
+      "model": "Firespray-31-class patrol and attack",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "unknown",
+      "length": 21.5,
+      "max_atmosphering_speed": "1000",
+      "crew": "1",
+      "passengers": "6",
+      "cargo_capacity": "70000",
+      "consumables": "1 month",
+      "hyperdrive_rating": "3.0",
+      "MGLT": "70",
+      "starship_class": "Patrol craft"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 64,
+    "fields": {
+      "name": "Razor Crest",
+      "model": "ST-70 class Razor Crest M-111",
+      "manufacturer": "unknown",
+      "cost_in_credits": "unknown",
+      "length": 80.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "5",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Gunship"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 65,
+    "fields": {
+      "name": "Imperial Star Destroyer",
+      "model": "Imperial I-class Star Destroyer",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "150000000",
+      "length": 1600.0,
+      "max_atmosphering_speed": "975",
+      "crew": "47060",
+      "passengers": "0",
+      "cargo_capacity": "36000000",
+      "consumables": "2 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "Star Destroyer"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 66,
+    "fields": {
+      "name": "Super Star Destroyer",
+      "model": "Executor-class Star Dreadnought",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "1143350000",
+      "length": 19000.0,
+      "max_atmosphering_speed": "n/a",
+      "crew": "279144",
+      "passengers": "38000",
+      "cargo_capacity": "250000000",
+      "consumables": "6 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "40",
+      "starship_class": "Star Dreadnought"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 67,
+    "fields": {
+      "name": "MC80 Liberty type Star Cruiser",
+      "model": "MC80 Liberty type Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 1200.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "5400",
+      "passengers": "1200",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "60",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 68,
+    "fields": {
+      "name": "MC85 Star Cruiser",
+      "model": "MC85 Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 3438.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "unknown",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 69,
+    "fields": {
+      "name": "Jedi Starfighter",
+      "model": "Delta-7 Aethersprite-class light interceptor",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "180000",
+      "length": 8.0,
+      "max_atmosphering_speed": "1150",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "60",
+      "consumables": "7 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "unknown",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 70,
+    "fields": {
+      "name": "Naboo Royal Starship",
+      "model": "J-type 327 Nubian royal starship",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "cost_in_credits": "unknown",
+      "length": 76.0,
+      "max_atmosphering_speed": "920",
+      "crew": "8",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "1.8",
+      "MGLT": "unknown",
+      "starship_class": "yacht"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 71,
+    "fields": {
+      "name": "Naboo Star Skiff",
+      "model": "J-type star skiff",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "cost_in_credits": "unknown",
+      "length": 29.2,
+      "max_atmosphering_speed": "1050",
+      "crew": "3",
+      "passengers": "3",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "unknown",
+      "starship_class": "yacht"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 72,
+    "fields": {
+      "name": "Republic Cruiser",
+      "model": "Consular-class cruiser",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "unknown",
+      "length": 115.0,
+      "max_atmosphering_speed": "900",
+      "crew": "9",
+      "passengers": "16",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "unknown",
+      "starship_class": "Space cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 73,
+    "fields": {
+      "name": "Republic Attack Cruiser",
+      "model": "Acclamator I-class assault ship",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 752.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "700",
+      "passengers": "16000",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "0.6",
+      "MGLT": "unknown",
+      "starship_class": "assault ship"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 74,
+    "fields": {
+      "name": "Death Star",
+      "model": "DS-1 Orbital Battle Station",
+      "manufacturer": "Imperial Department of Military Research",
+      "cost_in_credits": "1000000000000",
+      "length": 120000.0,
+      "max_atmosphering_speed": "n/a",
+      "crew": "342953",
+      "passengers": "843342",
+      "cargo_capacity": "1000000000000",
+      "consumables": "3 years",
+      "hyperdrive_rating": "4.0",
+      "MGLT": "10",
+      "starship_class": "Deep Space Mobile Battlestation"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 75,
+    "fields": {
+      "name": "Home One",
+      "model": "MC80 Liberty type Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 1200.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "5400",
+      "passengers": "1200",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "60",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 76,
+    "fields": {
+      "name": "Ghost",
+      "model": "VCX-100 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "unknown",
+      "length": 43.9,
+      "max_atmosphering_speed": "unknown",
+      "crew": "4",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Light freighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 77,
+    "fields": {
+      "name": "Tantive IV",
+      "model": "CR90 corvette",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "3500000",
+      "length": 150.0,
+      "max_atmosphering_speed": "950",
+      "crew": "165",
+      "passengers": "600",
+      "cargo_capacity": "unknown",
+      "consumables": "1 year",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "Corvette"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 78,
+    "fields": {
+      "name": "Star Destroyer Resurgent",
+      "model": "Resurgent-class Star Destroyer",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 2915.81,
+      "max_atmosphering_speed": "unknown",
+      "crew": "unknown",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Star Destroyer"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 79,
+    "fields": {
+      "name": "X-wing Starfighter",
+      "model": "T-65B X-wing",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "149999",
+      "length": 12.5,
+      "max_atmosphering_speed": "1050",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "100",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 80,
+    "fields": {
+      "name": "Y-wing Starfighter",
+      "model": "BTL Y-wing",
+      "manufacturer": "Koensayr Manufacturing",
+      "cost_in_credits": "134999",
+      "length": 14.0,
+      "max_atmosphering_speed": "1000",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "80",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 81,
+    "fields": {
+      "name": "A-wing Starfighter",
+      "model": "RZ-1 A-wing Interceptor",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "175000",
+      "length": 9.6,
+      "max_atmosphering_speed": "1300",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "120",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 82,
+    "fields": {
+      "name": "B-wing Starfighter",
+      "model": "A/SF-01 B-wing",
+      "manufacturer": "Slayn & Korpil",
+      "cost_in_credits": "220000",
+      "length": 16.9,
+      "max_atmosphering_speed": "950",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "45",
+      "consumables": "1 week",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "91",
+      "starship_class": "Assault Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 83,
+    "fields": {
+      "name": "TIE Fighter",
+      "model": "Twin Ion Engine/Ln Starfighter",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "75000",
+      "length": 6.4,
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "65",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "100",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 84,
+    "fields": {
+      "name": "TIE Interceptor",
+      "model": "Twin Ion Engine/IN Interceptor",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 9.6,
+      "max_atmosphering_speed": "1250",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "75",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "111",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 85,
+    "fields": {
+      "name": "TIE Bomber",
+      "model": "Twin Ion Engine/sa Bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 7.8,
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "hyperdrive_rating": "None",
+      "MGLT": "60",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 86,
+    "fields": {
+      "name": "TIE Advanced x1",
+      "model": "Twin Ion Engine Advanced x1",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 9.2,
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "150",
+      "consumables": "5 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "105",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 87,
+    "fields": {
+      "name": "TIE Silencer",
+      "model": "First Order TIE Silencer",
+      "manufacturer": "Sienar-Jaemus Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 17.2,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 88,
+    "fields": {
+      "name": "Millennium Falcon",
+      "model": "YT-1300 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "100000",
+      "length": 34.37,
+      "max_atmosphering_speed": "1050",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "100000",
+      "consumables": "2 months",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "75",
+      "starship_class": "Light freighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 89,
+    "fields": {
+      "name": "Slave I",
+      "model": "Firespray-31-class patrol and attack",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "unknown",
+      "length": 21.5,
+      "max_atmosphering_speed": "1000",
+      "crew": "1",
+      "passengers": "6",
+      "cargo_capacity": "70000",
+      "consumables": "1 month",
+      "hyperdrive_rating": "3.0",
+      "MGLT": "70",
+      "starship_class": "Patrol craft"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 90,
+    "fields": {
+      "name": "Razor Crest",
+      "model": "ST-70 class Razor Crest M-111",
+      "manufacturer": "unknown",
+      "cost_in_credits": "unknown",
+      "length": 80.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "5",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Gunship"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 91,
+    "fields": {
+      "name": "Imperial Star Destroyer",
+      "model": "Imperial I-class Star Destroyer",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "150000000",
+      "length": 1600.0,
+      "max_atmosphering_speed": "975",
+      "crew": "47060",
+      "passengers": "0",
+      "cargo_capacity": "36000000",
+      "consumables": "2 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "Star Destroyer"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 92,
+    "fields": {
+      "name": "Super Star Destroyer",
+      "model": "Executor-class Star Dreadnought",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "1143350000",
+      "length": 19000.0,
+      "max_atmosphering_speed": "n/a",
+      "crew": "279144",
+      "passengers": "38000",
+      "cargo_capacity": "250000000",
+      "consumables": "6 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "40",
+      "starship_class": "Star Dreadnought"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 93,
+    "fields": {
+      "name": "MC80 Liberty type Star Cruiser",
+      "model": "MC80 Liberty type Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 1200.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "5400",
+      "passengers": "1200",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "60",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 94,
+    "fields": {
+      "name": "MC85 Star Cruiser",
+      "model": "MC85 Star Cruiser",
+      "manufacturer": "Mon Calamari shipyards",
+      "cost_in_credits": "unknown",
+      "length": 3438.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "unknown",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "unknown",
+      "MGLT": "unknown",
+      "starship_class": "Star Cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 95,
+    "fields": {
+      "name": "Jedi Starfighter",
+      "model": "Delta-7 Aethersprite-class light interceptor",
+      "manufacturer": "Kuat Systems Engineering",
+      "cost_in_credits": "180000",
+      "length": 8.0,
+      "max_atmosphering_speed": "1150",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "60",
+      "consumables": "7 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "unknown",
+      "starship_class": "Starfighter"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 96,
+    "fields": {
+      "name": "Naboo Royal Starship",
+      "model": "J-type 327 Nubian royal starship",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "cost_in_credits": "unknown",
+      "length": 76.0,
+      "max_atmosphering_speed": "920",
+      "crew": "8",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "1.8",
+      "MGLT": "unknown",
+      "starship_class": "yacht"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 97,
+    "fields": {
+      "name": "Naboo Star Skiff",
+      "model": "J-type star skiff",
+      "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+      "cost_in_credits": "unknown",
+      "length": 29.2,
+      "max_atmosphering_speed": "1050",
+      "crew": "3",
+      "passengers": "3",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "unknown",
+      "starship_class": "yacht"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 98,
+    "fields": {
+      "name": "Republic Cruiser",
+      "model": "Consular-class cruiser",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "unknown",
+      "length": 115.0,
+      "max_atmosphering_speed": "900",
+      "crew": "9",
+      "passengers": "16",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "unknown",
+      "starship_class": "Space cruiser"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 99,
+    "fields": {
+      "name": "Republic Attack Cruiser",
+      "model": "Acclamator I-class assault ship",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 752.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "700",
+      "passengers": "16000",
+      "cargo_capacity": "unknown",
+      "consumables": "2 years",
+      "hyperdrive_rating": "0.6",
+      "MGLT": "unknown",
+      "starship_class": "assault ship"
+    }
+  },
+  {
+    "model": "ships.Spaceships",
+    "pk": 100,
+    "fields": {
+      "name": "Death Star",
+      "model": "DS-1 Orbital Battle Station",
+      "manufacturer": "Imperial Department of Military Research",
+      "cost_in_credits": "1000000000000",
+      "length": 120000.0,
+      "max_atmosphering_speed": "n/a",
+      "crew": "342953",
+      "passengers": "843342",
+      "cargo_capacity": "1000000000000",
+      "consumables": "3 years",
+      "hyperdrive_rating": "4.0",
+      "MGLT": "10",
+      "starship_class": "Deep Space Mobile Battlestation"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 1,
+    "fields": {
+      "name": "AT-AT",
+      "model": "All Terrain Armored Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 20.0,
+      "max_atmosphering_speed": "60",
+      "crew": "5",
+      "passengers": "40",
+      "cargo_capacity": "1000",
+      "consumables": "unknown",
+      "vehicle_class": "assault walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 2,
+    "fields": {
+      "name": "AT-ST",
+      "model": "All Terrain Scout Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 2.0,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "200",
+      "consumables": "none",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 3,
+    "fields": {
+      "name": "AT-AP",
+      "model": "All Terrain Attack Pod",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 13.2,
+      "max_atmosphering_speed": "60",
+      "crew": "3",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 4,
+    "fields": {
+      "name": "AT-TE",
+      "model": "All Terrain Tactical Enforcer",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 13.2,
+      "max_atmosphering_speed": "60",
+      "crew": "6",
+      "passengers": "36",
+      "cargo_capacity": "10000",
+      "consumables": "21 days",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 5,
+    "fields": {
+      "name": "TX-130 Saber-class fighter tank",
+      "model": "TX-130 Saber-class fighter tank",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 9.54,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "repulsorcraft"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 6,
+    "fields": {
+      "name": "LAAT/i",
+      "model": "Low Altitude Assault Transport/infantry",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 17.4,
+      "max_atmosphering_speed": "620",
+      "crew": "6",
+      "passengers": "30",
+      "cargo_capacity": "170",
+      "consumables": "unknown",
+      "vehicle_class": "gunship"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 7,
+    "fields": {
+      "name": "LAAT/c",
+      "model": "Low Altitude Assault Transport/carrier",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 28.82,
+      "max_atmosphering_speed": "620",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40000",
+      "consumables": "unknown",
+      "vehicle_class": "gunship"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 8,
+    "fields": {
+      "name": "Speeder bike",
+      "model": "74-Z speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": 3.0,
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 9,
+    "fields": {
+      "name": "Imperial Speeder Bike",
+      "model": "Imperial speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": 3.0,
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 10,
+    "fields": {
+      "name": "Swoop bike",
+      "model": "Swoop",
+      "manufacturer": "Various",
+      "cost_in_credits": "unknown",
+      "length": 3.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 11,
+    "fields": {
+      "name": "Sand Crawler",
+      "model": "Digger Crawler",
+      "manufacturer": "Corellia Mining Corporation",
+      "cost_in_credits": "150000",
+      "length": 36.8,
+      "max_atmosphering_speed": "30",
+      "crew": "46",
+      "passengers": "30",
+      "cargo_capacity": "50000",
+      "consumables": "2 months",
+      "vehicle_class": "wheeled"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 12,
+    "fields": {
+      "name": "Juggernaut",
+      "model": "HAVw A6 Juggernaut",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 49.4,
+      "max_atmosphering_speed": "160",
+      "crew": "12",
+      "passengers": "50",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "wheeled"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 13,
+    "fields": {
+      "name": "TIE bomber",
+      "model": "Twin Ion Engine/sa Bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 7.8,
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "vehicle_class": "airspeeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 14,
+    "fields": {
+      "name": "Snowspeeder",
+      "model": "T-47 airspeeder",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "unknown",
+      "length": 4.5,
+      "max_atmosphering_speed": "650",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "10",
+      "consumables": "none",
+      "vehicle_class": "airspeeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 15,
+    "fields": {
+      "name": "BARC speeder",
+      "model": "Biker Advanced Recon Commando",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "unknown",
+      "length": 3.5,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 16,
+    "fields": {
+      "name": "K79-S80 Imperial Troop Transport",
+      "model": "K79-S80 Imperial Troop Transport",
+      "manufacturer": "unknown",
+      "cost_in_credits": "unknown",
+      "length": null,
+      "max_atmosphering_speed": "unknown",
+      "crew": "2",
+      "passengers": "20",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "transport"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 17,
+    "fields": {
+      "name": "Vulture Droid",
+      "model": "Variable Geometry Self-Propelled Battle Droid, Mark I",
+      "manufacturer": "Haor Chall Engineering",
+      "cost_in_credits": "unknown",
+      "length": 3.5,
+      "max_atmosphering_speed": "1200",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "none",
+      "vehicle_class": "starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 18,
+    "fields": {
+      "name": "X-34 landspeeder",
+      "model": "X-34 landspeeder",
+      "manufacturer": "SoroSuub Corporation",
+      "cost_in_credits": "10550",
+      "length": 3.4,
+      "max_atmosphering_speed": "250",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "5",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 19,
+    "fields": {
+      "name": "Droid Tri-Fighter",
+      "model": "Droid Tri-Fighter",
+      "manufacturer": "Colicoid Creation Nest",
+      "cost_in_credits": "unknown",
+      "length": 5.4,
+      "max_atmosphering_speed": "1180",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "0",
+      "consumables": "none",
+      "vehicle_class": "droid starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 20,
+    "fields": {
+      "name": "Corporate Alliance tank droid",
+      "model": "NR-N99 Persuader-class droid enforcer",
+      "manufacturer": "Techno Union",
+      "cost_in_credits": "unknown",
+      "length": 10.96,
+      "max_atmosphering_speed": "100",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "none",
+      "vehicle_class": "droid tank"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 21,
+    "fields": {
+      "name": "Multi-Troop Transport",
+      "model": "Multi-Troop Transport",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "unknown",
+      "length": 31.0,
+      "max_atmosphering_speed": "35",
+      "crew": "4",
+      "passengers": "112",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "transport"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 22,
+    "fields": {
+      "name": "Armored Assault Tank",
+      "model": "Armoured Assault Tank",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "unknown",
+      "length": 9.75,
+      "max_atmosphering_speed": "55",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "tank"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 23,
+    "fields": {
+      "name": "First Order All Terrain Armored Transport",
+      "model": "First Order AT-AT",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 33.71,
+      "max_atmosphering_speed": "70",
+      "crew": "5",
+      "passengers": "40",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "assault walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 24,
+    "fields": {
+      "name": "First Order All Terrain Scout Transport",
+      "model": "First Order AT-ST",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 7.57,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 25,
+    "fields": {
+      "name": "First Order All Terrain MegaCaliber Six",
+      "model": "First Order AT-M6",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 36.87,
+      "max_atmosphering_speed": "60",
+      "crew": "3",
+      "passengers": "40",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 26,
+    "fields": {
+      "name": "Quadjumper",
+      "model": "Quadrijet transfer spacetug",
+      "manufacturer": "SoroSuub Corporation",
+      "cost_in_credits": "unknown",
+      "length": 8.3,
+      "max_atmosphering_speed": "unknown",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "space tug"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 27,
+    "fields": {
+      "name": "Raddaugh Gnasp fluttercraft",
+      "model": "Raddaugh Gnasp fluttercraft",
+      "manufacturer": "Appazanna Engineering Works",
+      "cost_in_credits": "unknown",
+      "length": 7.0,
+      "max_atmosphering_speed": "310",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "20",
+      "consumables": "none",
+      "vehicle_class": "air speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 28,
+    "fields": {
+      "name": "Flitknot speeder",
+      "model": "Flitknot speeder",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "cost_in_credits": "unknown",
+      "length": 2.0,
+      "max_atmosphering_speed": "634",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 29,
+    "fields": {
+      "name": "Geonosian starfighter",
+      "model": "Nantex-class territorial defense starfighter",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "cost_in_credits": "unknown",
+      "length": 9.8,
+      "max_atmosphering_speed": "20000",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 30,
+    "fields": {
+      "name": "AT-AT",
+      "model": "All Terrain Armored Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 20.0,
+      "max_atmosphering_speed": "60",
+      "crew": "5",
+      "passengers": "40",
+      "cargo_capacity": "1000",
+      "consumables": "unknown",
+      "vehicle_class": "assault walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 31,
+    "fields": {
+      "name": "AT-ST",
+      "model": "All Terrain Scout Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 2.0,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "200",
+      "consumables": "none",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 32,
+    "fields": {
+      "name": "AT-AP",
+      "model": "All Terrain Attack Pod",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 13.2,
+      "max_atmosphering_speed": "60",
+      "crew": "3",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 33,
+    "fields": {
+      "name": "AT-TE",
+      "model": "All Terrain Tactical Enforcer",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 13.2,
+      "max_atmosphering_speed": "60",
+      "crew": "6",
+      "passengers": "36",
+      "cargo_capacity": "10000",
+      "consumables": "21 days",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 34,
+    "fields": {
+      "name": "TX-130 Saber-class fighter tank",
+      "model": "TX-130 Saber-class fighter tank",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 9.54,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "repulsorcraft"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 35,
+    "fields": {
+      "name": "LAAT/i",
+      "model": "Low Altitude Assault Transport/infantry",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 17.4,
+      "max_atmosphering_speed": "620",
+      "crew": "6",
+      "passengers": "30",
+      "cargo_capacity": "170",
+      "consumables": "unknown",
+      "vehicle_class": "gunship"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 36,
+    "fields": {
+      "name": "LAAT/c",
+      "model": "Low Altitude Assault Transport/carrier",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 28.82,
+      "max_atmosphering_speed": "620",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40000",
+      "consumables": "unknown",
+      "vehicle_class": "gunship"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 37,
+    "fields": {
+      "name": "Speeder bike",
+      "model": "74-Z speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": 3.0,
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 38,
+    "fields": {
+      "name": "Imperial Speeder Bike",
+      "model": "Imperial speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": 3.0,
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 39,
+    "fields": {
+      "name": "Swoop bike",
+      "model": "Swoop",
+      "manufacturer": "Various",
+      "cost_in_credits": "unknown",
+      "length": 3.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 40,
+    "fields": {
+      "name": "Sand Crawler",
+      "model": "Digger Crawler",
+      "manufacturer": "Corellia Mining Corporation",
+      "cost_in_credits": "150000",
+      "length": 36.8,
+      "max_atmosphering_speed": "30",
+      "crew": "46",
+      "passengers": "30",
+      "cargo_capacity": "50000",
+      "consumables": "2 months",
+      "vehicle_class": "wheeled"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 41,
+    "fields": {
+      "name": "Juggernaut",
+      "model": "HAVw A6 Juggernaut",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 49.4,
+      "max_atmosphering_speed": "160",
+      "crew": "12",
+      "passengers": "50",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "wheeled"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 42,
+    "fields": {
+      "name": "TIE bomber",
+      "model": "Twin Ion Engine/sa Bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 7.8,
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "vehicle_class": "airspeeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 43,
+    "fields": {
+      "name": "Snowspeeder",
+      "model": "T-47 airspeeder",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "unknown",
+      "length": 4.5,
+      "max_atmosphering_speed": "650",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "10",
+      "consumables": "none",
+      "vehicle_class": "airspeeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 44,
+    "fields": {
+      "name": "BARC speeder",
+      "model": "Biker Advanced Recon Commando",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "unknown",
+      "length": 3.5,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 45,
+    "fields": {
+      "name": "K79-S80 Imperial Troop Transport",
+      "model": "K79-S80 Imperial Troop Transport",
+      "manufacturer": "unknown",
+      "cost_in_credits": "unknown",
+      "length": null,
+      "max_atmosphering_speed": "unknown",
+      "crew": "2",
+      "passengers": "20",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "transport"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 46,
+    "fields": {
+      "name": "Vulture Droid",
+      "model": "Variable Geometry Self-Propelled Battle Droid, Mark I",
+      "manufacturer": "Haor Chall Engineering",
+      "cost_in_credits": "unknown",
+      "length": 3.5,
+      "max_atmosphering_speed": "1200",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "none",
+      "vehicle_class": "starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 47,
+    "fields": {
+      "name": "X-34 landspeeder",
+      "model": "X-34 landspeeder",
+      "manufacturer": "SoroSuub Corporation",
+      "cost_in_credits": "10550",
+      "length": 3.4,
+      "max_atmosphering_speed": "250",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "5",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 48,
+    "fields": {
+      "name": "Droid Tri-Fighter",
+      "model": "Droid Tri-Fighter",
+      "manufacturer": "Colicoid Creation Nest",
+      "cost_in_credits": "unknown",
+      "length": 5.4,
+      "max_atmosphering_speed": "1180",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "0",
+      "consumables": "none",
+      "vehicle_class": "droid starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 49,
+    "fields": {
+      "name": "Corporate Alliance tank droid",
+      "model": "NR-N99 Persuader-class droid enforcer",
+      "manufacturer": "Techno Union",
+      "cost_in_credits": "unknown",
+      "length": 10.96,
+      "max_atmosphering_speed": "100",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "none",
+      "vehicle_class": "droid tank"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 50,
+    "fields": {
+      "name": "Multi-Troop Transport",
+      "model": "Multi-Troop Transport",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "unknown",
+      "length": 31.0,
+      "max_atmosphering_speed": "35",
+      "crew": "4",
+      "passengers": "112",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "transport"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 51,
+    "fields": {
+      "name": "Armored Assault Tank",
+      "model": "Armoured Assault Tank",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "unknown",
+      "length": 9.75,
+      "max_atmosphering_speed": "55",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "tank"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 52,
+    "fields": {
+      "name": "First Order All Terrain Armored Transport",
+      "model": "First Order AT-AT",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 33.71,
+      "max_atmosphering_speed": "70",
+      "crew": "5",
+      "passengers": "40",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "assault walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 53,
+    "fields": {
+      "name": "First Order All Terrain Scout Transport",
+      "model": "First Order AT-ST",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 7.57,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 54,
+    "fields": {
+      "name": "First Order All Terrain MegaCaliber Six",
+      "model": "First Order AT-M6",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 36.87,
+      "max_atmosphering_speed": "60",
+      "crew": "3",
+      "passengers": "40",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 55,
+    "fields": {
+      "name": "Quadjumper",
+      "model": "Quadrijet transfer spacetug",
+      "manufacturer": "SoroSuub Corporation",
+      "cost_in_credits": "unknown",
+      "length": 8.3,
+      "max_atmosphering_speed": "unknown",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "space tug"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 56,
+    "fields": {
+      "name": "Raddaugh Gnasp fluttercraft",
+      "model": "Raddaugh Gnasp fluttercraft",
+      "manufacturer": "Appazanna Engineering Works",
+      "cost_in_credits": "unknown",
+      "length": 7.0,
+      "max_atmosphering_speed": "310",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "20",
+      "consumables": "none",
+      "vehicle_class": "air speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 57,
+    "fields": {
+      "name": "Flitknot speeder",
+      "model": "Flitknot speeder",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "cost_in_credits": "unknown",
+      "length": 2.0,
+      "max_atmosphering_speed": "634",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 58,
+    "fields": {
+      "name": "Geonosian starfighter",
+      "model": "Nantex-class territorial defense starfighter",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "cost_in_credits": "unknown",
+      "length": 9.8,
+      "max_atmosphering_speed": "20000",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 59,
+    "fields": {
+      "name": "AT-AT",
+      "model": "All Terrain Armored Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 20.0,
+      "max_atmosphering_speed": "60",
+      "crew": "5",
+      "passengers": "40",
+      "cargo_capacity": "1000",
+      "consumables": "unknown",
+      "vehicle_class": "assault walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 60,
+    "fields": {
+      "name": "AT-ST",
+      "model": "All Terrain Scout Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 2.0,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "200",
+      "consumables": "none",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 61,
+    "fields": {
+      "name": "AT-AP",
+      "model": "All Terrain Attack Pod",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 13.2,
+      "max_atmosphering_speed": "60",
+      "crew": "3",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 62,
+    "fields": {
+      "name": "AT-TE",
+      "model": "All Terrain Tactical Enforcer",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 13.2,
+      "max_atmosphering_speed": "60",
+      "crew": "6",
+      "passengers": "36",
+      "cargo_capacity": "10000",
+      "consumables": "21 days",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 63,
+    "fields": {
+      "name": "TX-130 Saber-class fighter tank",
+      "model": "TX-130 Saber-class fighter tank",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 9.54,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "repulsorcraft"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 64,
+    "fields": {
+      "name": "LAAT/i",
+      "model": "Low Altitude Assault Transport/infantry",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 17.4,
+      "max_atmosphering_speed": "620",
+      "crew": "6",
+      "passengers": "30",
+      "cargo_capacity": "170",
+      "consumables": "unknown",
+      "vehicle_class": "gunship"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 65,
+    "fields": {
+      "name": "LAAT/c",
+      "model": "Low Altitude Assault Transport/carrier",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 28.82,
+      "max_atmosphering_speed": "620",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40000",
+      "consumables": "unknown",
+      "vehicle_class": "gunship"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 66,
+    "fields": {
+      "name": "Speeder bike",
+      "model": "74-Z speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": 3.0,
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 67,
+    "fields": {
+      "name": "Imperial Speeder Bike",
+      "model": "Imperial speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": 3.0,
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 68,
+    "fields": {
+      "name": "Swoop bike",
+      "model": "Swoop",
+      "manufacturer": "Various",
+      "cost_in_credits": "unknown",
+      "length": 3.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 69,
+    "fields": {
+      "name": "Sand Crawler",
+      "model": "Digger Crawler",
+      "manufacturer": "Corellia Mining Corporation",
+      "cost_in_credits": "150000",
+      "length": 36.8,
+      "max_atmosphering_speed": "30",
+      "crew": "46",
+      "passengers": "30",
+      "cargo_capacity": "50000",
+      "consumables": "2 months",
+      "vehicle_class": "wheeled"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 70,
+    "fields": {
+      "name": "Juggernaut",
+      "model": "HAVw A6 Juggernaut",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 49.4,
+      "max_atmosphering_speed": "160",
+      "crew": "12",
+      "passengers": "50",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "wheeled"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 71,
+    "fields": {
+      "name": "TIE bomber",
+      "model": "Twin Ion Engine/sa Bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 7.8,
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "vehicle_class": "airspeeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 72,
+    "fields": {
+      "name": "Snowspeeder",
+      "model": "T-47 airspeeder",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "unknown",
+      "length": 4.5,
+      "max_atmosphering_speed": "650",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "10",
+      "consumables": "none",
+      "vehicle_class": "airspeeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 73,
+    "fields": {
+      "name": "BARC speeder",
+      "model": "Biker Advanced Recon Commando",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "unknown",
+      "length": 3.5,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 74,
+    "fields": {
+      "name": "K79-S80 Imperial Troop Transport",
+      "model": "K79-S80 Imperial Troop Transport",
+      "manufacturer": "unknown",
+      "cost_in_credits": "unknown",
+      "length": null,
+      "max_atmosphering_speed": "unknown",
+      "crew": "2",
+      "passengers": "20",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "transport"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 75,
+    "fields": {
+      "name": "Vulture Droid",
+      "model": "Variable Geometry Self-Propelled Battle Droid, Mark I",
+      "manufacturer": "Haor Chall Engineering",
+      "cost_in_credits": "unknown",
+      "length": 3.5,
+      "max_atmosphering_speed": "1200",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "none",
+      "vehicle_class": "starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 76,
+    "fields": {
+      "name": "X-34 landspeeder",
+      "model": "X-34 landspeeder",
+      "manufacturer": "SoroSuub Corporation",
+      "cost_in_credits": "10550",
+      "length": 3.4,
+      "max_atmosphering_speed": "250",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "5",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 77,
+    "fields": {
+      "name": "Droid Tri-Fighter",
+      "model": "Droid Tri-Fighter",
+      "manufacturer": "Colicoid Creation Nest",
+      "cost_in_credits": "unknown",
+      "length": 5.4,
+      "max_atmosphering_speed": "1180",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "0",
+      "consumables": "none",
+      "vehicle_class": "droid starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 78,
+    "fields": {
+      "name": "Corporate Alliance tank droid",
+      "model": "NR-N99 Persuader-class droid enforcer",
+      "manufacturer": "Techno Union",
+      "cost_in_credits": "unknown",
+      "length": 10.96,
+      "max_atmosphering_speed": "100",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "none",
+      "vehicle_class": "droid tank"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 79,
+    "fields": {
+      "name": "Multi-Troop Transport",
+      "model": "Multi-Troop Transport",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "unknown",
+      "length": 31.0,
+      "max_atmosphering_speed": "35",
+      "crew": "4",
+      "passengers": "112",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "transport"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 80,
+    "fields": {
+      "name": "Armored Assault Tank",
+      "model": "Armoured Assault Tank",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "unknown",
+      "length": 9.75,
+      "max_atmosphering_speed": "55",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "tank"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 81,
+    "fields": {
+      "name": "First Order All Terrain Armored Transport",
+      "model": "First Order AT-AT",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 33.71,
+      "max_atmosphering_speed": "70",
+      "crew": "5",
+      "passengers": "40",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "assault walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 82,
+    "fields": {
+      "name": "First Order All Terrain Scout Transport",
+      "model": "First Order AT-ST",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 7.57,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 83,
+    "fields": {
+      "name": "First Order All Terrain MegaCaliber Six",
+      "model": "First Order AT-M6",
+      "manufacturer": "Kuat-Entralla Engineering",
+      "cost_in_credits": "unknown",
+      "length": 36.87,
+      "max_atmosphering_speed": "60",
+      "crew": "3",
+      "passengers": "40",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 84,
+    "fields": {
+      "name": "Quadjumper",
+      "model": "Quadrijet transfer spacetug",
+      "manufacturer": "SoroSuub Corporation",
+      "cost_in_credits": "unknown",
+      "length": 8.3,
+      "max_atmosphering_speed": "unknown",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "space tug"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 85,
+    "fields": {
+      "name": "Raddaugh Gnasp fluttercraft",
+      "model": "Raddaugh Gnasp fluttercraft",
+      "manufacturer": "Appazanna Engineering Works",
+      "cost_in_credits": "unknown",
+      "length": 7.0,
+      "max_atmosphering_speed": "310",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "20",
+      "consumables": "none",
+      "vehicle_class": "air speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 86,
+    "fields": {
+      "name": "Flitknot speeder",
+      "model": "Flitknot speeder",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "cost_in_credits": "unknown",
+      "length": 2.0,
+      "max_atmosphering_speed": "634",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 87,
+    "fields": {
+      "name": "Geonosian starfighter",
+      "model": "Nantex-class territorial defense starfighter",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "cost_in_credits": "unknown",
+      "length": 9.8,
+      "max_atmosphering_speed": "20000",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "starfighter"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 88,
+    "fields": {
+      "name": "AT-AT",
+      "model": "All Terrain Armored Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 20.0,
+      "max_atmosphering_speed": "60",
+      "crew": "5",
+      "passengers": "40",
+      "cargo_capacity": "1000",
+      "consumables": "unknown",
+      "vehicle_class": "assault walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 89,
+    "fields": {
+      "name": "AT-ST",
+      "model": "All Terrain Scout Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 2.0,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "200",
+      "consumables": "none",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 90,
+    "fields": {
+      "name": "AT-AP",
+      "model": "All Terrain Attack Pod",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 13.2,
+      "max_atmosphering_speed": "60",
+      "crew": "3",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 91,
+    "fields": {
+      "name": "AT-TE",
+      "model": "All Terrain Tactical Enforcer",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 13.2,
+      "max_atmosphering_speed": "60",
+      "crew": "6",
+      "passengers": "36",
+      "cargo_capacity": "10000",
+      "consumables": "21 days",
+      "vehicle_class": "walker"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 92,
+    "fields": {
+      "name": "TX-130 Saber-class fighter tank",
+      "model": "TX-130 Saber-class fighter tank",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 9.54,
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "repulsorcraft"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 93,
+    "fields": {
+      "name": "LAAT/i",
+      "model": "Low Altitude Assault Transport/infantry",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 17.4,
+      "max_atmosphering_speed": "620",
+      "crew": "6",
+      "passengers": "30",
+      "cargo_capacity": "170",
+      "consumables": "unknown",
+      "vehicle_class": "gunship"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 94,
+    "fields": {
+      "name": "LAAT/c",
+      "model": "Low Altitude Assault Transport/carrier",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": 28.82,
+      "max_atmosphering_speed": "620",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40000",
+      "consumables": "unknown",
+      "vehicle_class": "gunship"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 95,
+    "fields": {
+      "name": "Speeder bike",
+      "model": "74-Z speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": 3.0,
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 96,
+    "fields": {
+      "name": "Imperial Speeder Bike",
+      "model": "Imperial speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": 3.0,
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 97,
+    "fields": {
+      "name": "Swoop bike",
+      "model": "Swoop",
+      "manufacturer": "Various",
+      "cost_in_credits": "unknown",
+      "length": 3.0,
+      "max_atmosphering_speed": "unknown",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 98,
+    "fields": {
+      "name": "Sand Crawler",
+      "model": "Digger Crawler",
+      "manufacturer": "Corellia Mining Corporation",
+      "cost_in_credits": "150000",
+      "length": 36.8,
+      "max_atmosphering_speed": "30",
+      "crew": "46",
+      "passengers": "30",
+      "cargo_capacity": "50000",
+      "consumables": "2 months",
+      "vehicle_class": "wheeled"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 99,
+    "fields": {
+      "name": "Juggernaut",
+      "model": "HAVw A6 Juggernaut",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": 49.4,
+      "max_atmosphering_speed": "160",
+      "crew": "12",
+      "passengers": "50",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "wheeled"
+    }
+  },
+  {
+    "model": "vehicles.Vehicles",
+    "pk": 100,
+    "fields": {
+      "name": "TIE bomber",
+      "model": "Twin Ion Engine/sa Bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": 7.8,
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "vehicle_class": "airspeeder"
+    }
+  }
+]

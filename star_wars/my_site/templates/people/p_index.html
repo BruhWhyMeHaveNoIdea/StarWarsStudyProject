@@ -1,0 +1,129 @@
+<!-- p_index.html -->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Персонажи - Имперская база данных{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'people/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <section class="page-header">
+        <h1><i class="fas fa-users"></i> База данных персонажей</h1>
+        <p>Все персонажи вселенной Звёздных Войн</p>
+    </section>
+
+    <div class="controls">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Поиск персонажей...">
+        </div>
+        <button class="btn"><i class="fas fa-filter"></i> Фильтр</button>
+    </div>
+
+    <div class="characters-info">
+        <p>Всего в базе: {{ people|length }} персонажей</p>
+    </div>
+
+    <section class="characters-grid">
+        {% for person in people %}
+            {% if person %}
+                <a href="{% url 'people:details' person.id %}" class="character-card">
+                    <div class="character-header">
+                        <h3>
+                            {% if person.name %}
+                                {{ person.name }}
+                            {% else %}
+                                Неизвестный персонаж
+                            {% endif %}
+                        </h3>
+                        <div class="character-type">
+                            {% if person.gender and person.gender != "unknown" and person.gender.strip %}
+                                {{ person.gender }}
+                            {% else %}
+                                Неизвестно
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <div class="character-image">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    
+                    <div class="character-info">
+                        <div class="character-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Рост</span>
+                                <span class="spec-value">
+                                    {% if person.height and person.height != "unknown" and person.height.strip %}
+                                        {{ person.height }} см
+                                    {% else %}
+                                        Неизвестен
+                                    {% endif %}
+                                </span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Вес</span>
+                                <span class="spec-value">
+                                    {% if person.mass and person.mass != "unknown" and person.mass.strip %}
+                                        {{ person.mass }} кг
+                                    {% else %}
+                                        Неизвестен
+                                    {% endif %}
+                                </span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Цвет волос</span>
+                                <span class="spec-value">
+                                    {% if person.hair_color and person.hair_color != "unknown" and person.hair_color.strip %}
+                                        {{ person.hair_color }}
+                                    {% else %}
+                                        Неизвестен
+                                    {% endif %}
+                                </span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Родной мир</span>
+                                <span class="spec-value">
+                                    {% if person.homeworld and person.homeworld.strip %}
+                                        {{ person.homeworld }}
+                                    {% else %}
+                                        Неизвестен
+                                    {% endif %}
+                                </span>
+                            </div>
+                        </div>
+                        
+                        {% if person.starship and person.starship.name %}
+                            <div class="character-ship">
+                                <i class="fas fa-space-shuttle"></i> 
+                                {{ person.starship.name }}
+                            </div>
+                        {% endif %}
+                        
+                        <a href="{% url 'people:details' person.id %}" class="button">Подробнее</a>
+                    </div>
+                </a>
+            {% endif %}
+        {% empty %}
+            <div class="no-results">
+                <i class="fas fa-user-slash"></i>
+                <h3>Персонажи не найдены</h3>
+                <p>Попробуйте изменить параметры поиска</p>
+            </div>
+        {% endfor %}
+    </section>
+
+    {% if people %}
+        <div class="pagination">
+            <a href="#" class="page-link active">1</a>
+            <a href="#" class="page-link">2</a>
+            <a href="#" class="page-link">3</a>
+            <a href="#" class="page-link">4</a>
+            <a href="#" class="page-link">5</a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

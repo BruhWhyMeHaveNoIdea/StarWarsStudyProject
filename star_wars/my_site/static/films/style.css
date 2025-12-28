@@ -1,0 +1,121 @@
+/* films/style.css */
+.films-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.film-card {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    border: 1px solid #444;
+    transition: all 0.3s ease;
+}
+
+.film-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--imperial-red);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.film-poster {
+    flex: 0 0 120px;
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.film-poster i {
+    font-size: 3rem;
+    color: var(--imperial-red);
+}
+
+.film-info {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.film-title {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.film-meta {
+    color: var(--imperial-gold);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.film-description {
+    color: #ccc;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+/* Film Details Page */
+.film-details-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.film-spec-item {
+    margin-bottom: 1.5rem;
+}
+
+.film-spec-label {
+    color: var(--imperial-gold);
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.film-characters {
+    background-color: #333;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.character-item {
+    background-color: #2a2a2a;
+    padding: 0.8rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.character-item a {
+    color: var(--imperial-light);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.character-item:hover {
+    background-color: #3a3a3a;
+}
+
+@media (max-width: 768px) {
+    .film-card {
+        flex-direction: column;
+    }
+    
+    .film-poster {
+        flex: none;
+        padding: 2rem;
+    }
+}

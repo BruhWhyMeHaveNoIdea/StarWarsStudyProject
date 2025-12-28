@@ -1,0 +1,77 @@
+<!-- f_index.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Фильмы - Имперская база данных{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'films/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Архив фильмов Звездных Войн</h2>
+    <p>Хронологический порядок саги</p>
+    
+    <div class="films-grid">
+        {% for film in films %}
+            {% if film %}
+                <div class="film-card">
+                    <div class="film-poster">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="film-info">
+                        <h3 class="film-title">
+                            {% if film.title %}
+                                {{ film.title }}
+                            {% else %}
+                                Неизвестный фильм
+                            {% endif %}
+                        </h3>
+                        <div class="film-meta">
+                            {% if film.episode_id %}
+                                Эпизод {{ film.episode_id }} 
+                            {% else %}
+                                Эпизод неизвестен
+                            {% endif %}
+                            {% if film.release_date %}
+                                | {{ film.release_date }}
+                            {% endif %}
+                        </div>
+                        <p class="film-description">
+                            {% if film.description %}
+                                {{ film.description|truncatechars:150 }}
+                            {% else %}
+                                Описание отсутствует
+                            {% endif %}
+                        </p>
+                        <div style="margin-bottom: 1rem;">
+                            {% if film.director and film.director.strip %}
+                                <span class="badge">{{ film.director }}</span>
+                            {% endif %}
+                            {% if film.producer and film.producer.strip %}
+                                <span class="badge">Продюсер: {{ film.producer }}</span>
+                            {% endif %}
+                        </div>
+                        <a href="{% url 'films:details' film.id %}" class="button">Подробнее о фильме</a>
+                    </div>
+                </div>
+            {% endif %}
+        {% empty %}
+            <div class="no-results">
+                <i class="fas fa-film"></i>
+                <h3>Фильмы не найдены</h3>
+                <p>Нет данных о фильмах в базе</p>
+            </div>
+        {% endfor %}
+    </div>
+    
+    {% if films %}
+        <div class="pagination">
+            <a href="#" class="page-link active">1</a>
+            <a href="#" class="page-link">2</a>
+            <a href="#" class="page-link">3</a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,138 @@
+/* vehicles/style.css */
+.search-box {
+    margin: 2rem 0;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.8rem 1rem;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: var(--imperial-light);
+    font-size: 1rem;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--imperial-red);
+}
+
+.vehicles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.vehicle-card {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #444;
+    transition: all 0.3s ease;
+}
+
+.vehicle-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--imperial-gold);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.vehicle-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #2a2a2a;
+    min-height: 150px;
+}
+
+.vehicle-image i {
+    font-size: 4rem;
+    color: var(--imperial-gold);
+}
+
+.vehicle-info {
+    padding: 1.5rem;
+}
+
+.vehicle-info h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.vehicle-class {
+    display: inline-block;
+    background-color: var(--imperial-gold);
+    color: #000;
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.vehicle-specs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+    margin: 1rem 0;
+}
+
+.vehicle-spec {
+    background-color: #2a2a2a;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.vehicle-spec-label {
+    color: #aaa;
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.vehicle-spec-value {
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.vehicle-info p {
+    color: #ccc;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+/* Vehicle Details Page */
+.vehicle-details-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.pilots-list {
+    list-style: none;
+}
+
+.pilots-list li {
+    margin-bottom: 0.8rem;
+}
+
+.pilots-list a {
+    color: var(--imperial-light);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.pilots-list a:hover {
+    background-color: #444;
+    color: var(--imperial-gold);
+}

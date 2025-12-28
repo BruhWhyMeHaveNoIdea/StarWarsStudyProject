@@ -1,0 +1,142 @@
+<!-- f_details.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    {% if film.title %}{{ film.title }}{% else %}Неизвестный фильм{% endif %} - Имперская база данных
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'films/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>{% if film.title %}{{ film.title }}{% else %}Неизвестный фильм{% endif %}</h2>
+    
+    <div class="film-details-container">
+        <div>
+            <div class="film-spec-item">
+                <div class="film-spec-label">Эпизод:</div>
+                <div>
+                    {% if film.episode_id %}
+                        {{ film.episode_id }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="film-spec-item">
+                <div class="film-spec-label">Режиссер:</div>
+                <div>
+                    {% if film.director and film.director.strip %}
+                        {{ film.director }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="film-spec-item">
+                <div class="film-spec-label">Продюсер:</div>
+                <div>
+                    {% if film.producer and film.producer.strip %}
+                        {{ film.producer }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="film-spec-item">
+                <div class="film-spec-label">Дата выхода:</div>
+                <div>
+                    {% if film.release_date %}
+                        {{ film.release_date }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="film-spec-item">
+                <h3>Корабли в фильме</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                    {% if film.ships.all %}
+                        {% for ship in film.ships.all %}
+                            {% if ship %}
+                                <a href="{% url 'ships:details' ship.id %}" class="badge">
+                                    {% if ship.name %}
+                                        {{ ship.name }}
+                                    {% else %}
+                                        Неизвестный корабль
+                                    {% endif %}
+                                </a>
+                            {% endif %}
+                        {% empty %}
+                            <span>Корабли отсутствуют</span>
+                        {% endfor %}
+                    {% else %}
+                        <span>Нет информации о кораблях</span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        
+        <div class="film-characters">
+            <h3>Персонажи в фильме</h3>
+            <div class="character-grid">
+                {% if film.characters.all %}
+                    {% for character in film.characters.all %}
+                        {% if character %}
+                            <div class="character-item">
+                                <a href="{% url 'people:details' character.id %}">
+                                    {% if character.name %}
+                                        {{ character.name }}
+                                    {% else %}
+                                        Неизвестный персонаж
+                                    {% endif %}
+                                </a>
+                            </div>
+                        {% endif %}
+                    {% empty %}
+                        <div class="character-item">Персонажи отсутствуют</div>
+                    {% endfor %}
+                {% else %}
+                    <div class="character-item">Нет информации о персонажах</div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <div style="margin-top: 2rem;">
+        <h3>Транспортные средства в фильме</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+            {% if film.vehicles.all %}
+                {% for vehicle in film.vehicles.all %}
+                    {% if vehicle %}
+                        <a href="{% url 'vehicles:details' vehicle.id %}" class="badge">
+                            {% if vehicle.name %}
+                                {{ vehicle.name }}
+                            {% else %}
+                                Неизвестный транспорт
+                            {% endif %}
+                        </a>
+                    {% endif %}
+                {% empty %}
+                    <span>Транспортные средства отсутствуют</span>
+                {% endfor %}
+            {% else %}
+                <span>Нет информации о транспортных средствах</span>
+            {% endif %}
+        </div>
+    </div>
+    
+    <div style="margin-top: 2rem;">
+        <a href="{% url 'films:index' %}" class="button button-secondary">
+            Назад к списку фильмов
+        </a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,172 @@
+<!-- s_details.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    {% if ship.name %}{{ ship.name }}{% else %}Неизвестный корабль{% endif %} - Имперская база данных
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'ships/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>{% if ship.name %}{{ ship.name }}{% else %}Неизвестный корабль{% endif %}</h2>
+    
+    <div class="ship-details-grid">
+        <div class="ship-detail-section">
+            <h3>Технические характеристики</h3>
+            <div class="detail-item">
+                <span class="detail-label">Класс:</span>
+                <span class="detail-value">
+                    {% if ship.class and ship.class.strip %}
+                        {{ ship.class }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Длина:</span>
+                <span class="detail-value">
+                    {% if ship.length and ship.length != "unknown" and ship.length.strip %}
+                        {{ ship.length }} метров
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Экипаж:</span>
+                <span class="detail-value">
+                    {% if ship.crew and ship.crew != "unknown" and ship.crew.strip %}
+                        {{ ship.crew }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Пассажиры:</span>
+                <span class="detail-value">
+                    {% if ship.passengers and ship.passengers != "unknown" and ship.passengers.strip %}
+                        {{ ship.passengers }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Грузоподъемность:</span>
+                <span class="detail-value">
+                    {% if ship.cargo_capacity and ship.cargo_capacity != "unknown" and ship.cargo_capacity.strip %}
+                        {{ ship.cargo_capacity }} тонн
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Скорость (атмосфера):</span>
+                <span class="detail-value">
+                    {% if ship.max_atmosphering_speed and ship.max_atmosphering_speed != "unknown" and ship.max_atmosphering_speed.strip %}
+                        {{ ship.max_atmosphering_speed }} км/ч
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Гипердрайв:</span>
+                <span class="detail-value">
+                    {% if ship.hyperdrive_rating and ship.hyperdrive_rating != "unknown" and ship.hyperdrive_rating.strip %}
+                        {{ ship.hyperdrive_rating }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Принадлежность:</span>
+                <span class="detail-value">
+                    {% if ship.faction and ship.faction.strip %}
+                        {{ ship.faction }}
+                    {% else %}
+                        Нет информации
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+        
+        <div class="ship-detail-section">
+            <h3>Известные пилоты</h3>
+            <ul class="crew-list">
+                {% if ship.pilots.all %}
+                    {% for pilot in ship.pilots.all %}
+                        {% if pilot %}
+                            <li>
+                                <a href="{% url 'people:details' pilot.id %}">
+                                    <i class="fas fa-user"></i> 
+                                    {% if pilot.name %}
+                                        {{ pilot.name }}
+                                    {% else %}
+                                        Неизвестный пилот
+                                    {% endif %}
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% empty %}
+                        <li>Пилоты отсутствуют</li>
+                    {% endfor %}
+                {% else %}
+                    <li>Нет информации о пилотах</li>
+                {% endif %}
+            </ul>
+            
+            <h3 style="margin-top: 1.5rem;">Вооружение</h3>
+            <div class="badge">
+                {% if ship.armament and ship.armament.strip %}
+                    {{ ship.armament }}
+                {% else %}
+                    Нет информации
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <div class="ship-detail-section" style="margin-top: 2rem;">
+        <h3>Описание</h3>
+        <p>
+            {% if ship.description and ship.description.strip %}
+                {{ ship.description }}
+            {% else %}
+                Описание отсутствует
+            {% endif %}
+        </p>
+        
+        <h3 style="margin-top: 1.5rem;">Появления в фильмах</h3>
+        <div>
+            {% if ship.films.all %}
+                {% for film in ship.films.all %}
+                    {% if film %}
+                        <a href="{% url 'films:details' film.id %}" class="badge">
+                            {% if film.title %}
+                                {{ film.title }}
+                            {% else %}
+                                Неизвестный фильм
+                            {% endif %}
+                        </a>
+                    {% endif %}
+                {% empty %}
+                    <span>Не появлялся в фильмах</span>
+                {% endfor %}
+            {% else %}
+                <span>Нет информации о появлениях в фильмах</span>
+            {% endif %}
+        </div>
+    </div>
+    
+    <a href="{% url 'ships:index' %}" class="button button-secondary">Назад к списку кораблей</a>
+</div>
+{% endblock %}

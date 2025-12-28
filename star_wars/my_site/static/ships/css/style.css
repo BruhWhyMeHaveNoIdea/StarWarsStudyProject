@@ -1,0 +1,123 @@
+/* ships/style.css */
+.ships-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.ship-card {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #444;
+    transition: all 0.3s ease;
+}
+
+.ship-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--imperial-blue);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.ship-header {
+    background: linear-gradient(to right, #1a1a1a, #2a2a2a);
+    padding: 1rem;
+    border-bottom: 2px solid var(--imperial-blue);
+}
+
+.ship-header h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.ship-type {
+    display: inline-block;
+    background-color: var(--imperial-blue);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.ship-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #2a2a2a;
+    min-height: 200px;
+}
+
+.ship-image i {
+    font-size: 5rem;
+    color: var(--imperial-blue);
+    transition: transform 0.3s ease;
+}
+
+.ship-card:hover .ship-image i {
+    transform: scale(1.1);
+}
+
+.ship-info {
+    padding: 1.5rem;
+}
+
+.ship-specs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.ship-info p {
+    color: #ccc;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Ship Details Page */
+.ship-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.ship-detail-section {
+    background-color: #333;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.ship-detail-section h3 {
+    color: var(--imperial-blue);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--imperial-blue);
+}
+
+.crew-list {
+    list-style: none;
+}
+
+.crew-list li {
+    margin-bottom: 0.8rem;
+}
+
+.crew-list a {
+    color: var(--imperial-light);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.crew-list a:hover {
+    background-color: #444;
+    color: var(--imperial-blue);
+}

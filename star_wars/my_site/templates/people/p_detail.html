@@ -1,0 +1,234 @@
+<!-- p_detail.html -->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    {% if person.name %}{{ person.name }}{% else %}Неизвестный персонаж{% endif %} - Имперская база данных
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'people/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="breadcrumb">
+        <a href="{% url 'people:index' %}"><i class="fas fa-arrow-left"></i> Назад к персонажам</a>
+    </div>
+
+    <section class="character-detail">
+        <div class="character-header">
+            <div class="character-avatar">
+                <i class="fas fa-user-astronaut"></i>
+            </div>
+            <div class="character-title">
+                <h1>{% if person.name %}{{ person.name }}{% else %}Неизвестный персонаж{% endif %}</h1>
+                <p class="character-subtitle">
+                    {% if person.species and person.species.strip %}
+                        {{ person.species }}
+                    {% else %}
+                        Неизвестный вид
+                    {% endif %}
+                    • 
+                    {% if person.affiliation and person.affiliation.strip %}
+                        {{ person.affiliation }}
+                    {% else %}
+                        Неизвестная принадлежность
+                    {% endif %}
+                </p>
+                <div class="character-tags">
+                    <span class="tag">
+                        <i class="fas fa-venus-mars"></i> 
+                        {% if person.gender and person.gender != "unknown" and person.gender.strip %}
+                            {{ person.gender }}
+                        {% else %}
+                            Неизвестно
+                        {% endif %}
+                    </span>
+                    <span class="tag">
+                        <i class="fas fa-calendar"></i> Год рождения: 
+                        {% if person.birth_year and person.birth_year != "unknown" and person.birth_year.strip %}
+                            {{ person.birth_year }}
+                        {% else %}
+                            Неизвестен
+                        {% endif %}
+                    </span>
+                    <span class="tag">
+                        <i class="fas fa-globe"></i> 
+                        {% if person.homeworld and person.homeworld.strip %}
+                            {{ person.homeworld }}
+                        {% else %}
+                            Неизвестная планета
+                        {% endif %}
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="character-content">
+            <div class="character-details-grid">
+                <div class="character-detail-section">
+                    <h3><i class="fas fa-info-circle"></i> Физические характеристики</h3>
+                    <div class="detail-item">
+                        <span class="detail-label">Рост:</span>
+                        <span class="detail-value">
+                            {% if person.height and person.height != "unknown" and person.height.strip %}
+                                {{ person.height }} см
+                            {% else %}
+                                Неизвестен
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Вес:</span>
+                        <span class="detail-value">
+                            {% if person.mass and person.mass != "unknown" and person.mass.strip %}
+                                {{ person.mass }} кг
+                            {% else %}
+                                Неизвестен
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Цвет волос:</span>
+                        <span class="detail-value">
+                            {% if person.hair_color and person.hair_color != "unknown" and person.hair_color.strip %}
+                                {{ person.hair_color }}
+                            {% else %}
+                                Неизвестен
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Цвет глаз:</span>
+                        <span class="detail-value">
+                            {% if person.eye_color and person.eye_color != "unknown" and person.eye_color.strip %}
+                                {{ person.eye_color }}
+                            {% else %}
+                                Неизвестен
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Цвет кожи:</span>
+                        <span class="detail-value">
+                            {% if person.skin_color and person.skin_color != "unknown" and person.skin_color.strip %}
+                                {{ person.skin_color }}
+                            {% else %}
+                                Неизвестен
+                            {% endif %}
+                        </span>
+                    </div>
+                </div>
+
+                <div class="character-detail-section">
+                    <h3><i class="fas fa-film"></i> Появления в фильмах</h3>
+                    <ul class="films-list">
+                        {% if person.films.all %}
+                            {% for film in person.films.all %}
+                                {% if film %}
+                                    <li>
+                                        <a href="{% url 'films:details' film.id %}" class="film-link">
+                                            <i class="fas fa-film"></i> 
+                                            {% if film.title %}
+                                                {{ film.title }}
+                                            {% else %}
+                                                Неизвестный фильм
+                                            {% endif %}
+                                            {% if film.release_date %}
+                                                <span class="film-year">({{ film.release_date|date:"Y" }})</span>
+                                            {% endif %}
+                                        </a>
+                                    </li>
+                                {% endif %}
+                            {% empty %}
+                                <li class="no-data">Нет данных о фильмах</li>
+                            {% endfor %}
+                        {% else %}
+                            <li class="no-data">Нет данных о фильмах</li>
+                        {% endif %}
+                    </ul>
+                </div>
+
+                {% if person.starship %}
+                    <div class="character-detail-section featured">
+                        <h3><i class="fas fa-space-shuttle"></i> Основной корабль</h3>
+                        <div class="starship-preview">
+                            <div class="starship-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="starship-info">
+                                <h4>
+                                    {% if person.starship.name %}
+                                        {{ person.starship.name }}
+                                    {% else %}
+                                        Неизвестный корабль
+                                    {% endif %}
+                                </h4>
+                                <p>
+                                    {% if person.starship.model and person.starship.model.strip %}
+                                        {{ person.starship.model }}
+                                    {% else %}
+                                        Модель неизвестна
+                                    {% endif %}
+                                    • 
+                                    {% if person.starship.starship_class and person.starship.starship_class.strip %}
+                                        {{ person.starship.starship_class }}
+                                    {% else %}
+                                        Класс неизвестен
+                                    {% endif %}
+                                </p>
+                                <a href="{% url 'ships:details' person.starship.id %}" class="btn">
+                                    Подробнее о корабле <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+
+                {% if person.vehicles.all %}
+                    <div class="character-detail-section">
+                        <h3><i class="fas fa-car"></i> Транспортные средства</h3>
+                        <div class="badges-container">
+                            {% for vehicle in person.vehicles.all %}
+                                {% if vehicle %}
+                                    <a href="{% url 'vehicles:details' vehicle.id %}" class="badge">
+                                        <i class="fas fa-car"></i> 
+                                        {% if vehicle.name %}
+                                            {{ vehicle.name }}
+                                        {% else %}
+                                            Неизвестный транспорт
+                                        {% endif %}
+                                    </a>
+                                {% endif %}
+                            {% empty %}
+                                <span>Нет данных о транспортных средствах</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+
+            <div class="character-detail-section" style="margin-top: 2rem;">
+                <h3><i class="fas fa-book"></i> Биография</h3>
+                <p>
+                    {% if person.biography and person.biography.strip %}
+                        {{ person.biography }}
+                    {% else %}
+                        Биография этого персонажа отсутствует в базе данных.
+                    {% endif %}
+                </p>
+                
+                {% if person.homeworld and person.homeworld.strip %}
+                    <h3 style="margin-top: 1.5rem;"><i class="fas fa-globe-americas"></i> Родной мир</h3>
+                    <div class="badge">{{ person.homeworld }}</div>
+                {% endif %}
+            </div>
+            
+            <a href="{% url 'people:index' %}" class="btn btn-secondary" style="margin-top: 2rem;">
+                <i class="fas fa-arrow-left"></i> Назад к списку персонажей
+            </a>
+        </div>
+    </section>
+</div>
+{% endblock %}

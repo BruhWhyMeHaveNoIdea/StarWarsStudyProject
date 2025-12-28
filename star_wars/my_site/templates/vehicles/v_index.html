@@ -1,0 +1,119 @@
+<!-- v_index.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Транспорт - Имперская база данных{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'vehicles/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Транспортные средства</h2>
+    <p>Наземный и воздушный транспорт вселенной Звездных Войн</p>
+    
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="Поиск транспорта по названию или классу...">
+    </div>
+    
+    <div class="vehicles-grid">
+        {% for vehicle in vehicles %}
+            {% if vehicle %}
+                <div class="vehicle-card">
+                    <div class="vehicle-image">
+                        {% if vehicle.type == 'Воздушный' %}
+                            <i class="fas fa-fighter-jet"></i>
+                        {% else %}
+                            <i class="fas fa-car"></i>
+                        {% endif %}
+                    </div>
+                    <div class="vehicle-info">
+                        <h3>
+                            {% if vehicle.name %}
+                                {{ vehicle.name }}
+                            {% else %}
+                                Неизвестный транспорт
+                            {% endif %}
+                        </h3>
+                        <div class="vehicle-class">
+                            {% if vehicle.class and vehicle.class.strip %}
+                                {{ vehicle.class }}
+                            {% else %}
+                                Класс неизвестен
+                            {% endif %}
+                        </div>
+                        
+                        <div class="vehicle-specs">
+                            <div class="vehicle-spec">
+                                <div class="vehicle-spec-label">Тип</div>
+                                <div class="vehicle-spec-value">
+                                    {% if vehicle.type and vehicle.type.strip %}
+                                        {{ vehicle.type }}
+                                    {% else %}
+                                        Нет информации
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="vehicle-spec">
+                                <div class="vehicle-spec-label">Длина</div>
+                                <div class="vehicle-spec-value">
+                                    {% if vehicle.length and vehicle.length != "unknown" and vehicle.length.strip %}
+                                        {{ vehicle.length }} м
+                                    {% else %}
+                                        Нет информации
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="vehicle-spec">
+                                <div class="vehicle-spec-label">Экипаж</div>
+                                <div class="vehicle-spec-value">
+                                    {% if vehicle.crew and vehicle.crew != "unknown" and vehicle.crew.strip %}
+                                        {{ vehicle.crew }}
+                                    {% else %}
+                                        Нет информации
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="vehicle-spec">
+                                <div class="vehicle-spec-label">Скорость</div>
+                                <div class="vehicle-spec-value">
+                                    {% if vehicle.max_speed and vehicle.max_speed != "unknown" and vehicle.max_speed.strip %}
+                                        {{ vehicle.max_speed }} км/ч
+                                    {% else %}
+                                        Нет информации
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p>
+                            {% if vehicle.description %}
+                                {{ vehicle.description|truncatechars:100 }}
+                            {% else %}
+                                Описание отсутствует
+                            {% endif %}
+                        </p>
+                        <a href="{% url 'vehicles:details' vehicle.id %}" class="button">Подробнее</a>
+                    </div>
+                </div>
+            {% endif %}
+        {% empty %}
+            <div class="no-results">
+                <i class="fas fa-car"></i>
+                <h3>Транспортные средства не найдены</h3>
+                <p>Нет данных о транспортных средствах в базе</p>
+            </div>
+        {% endfor %}
+    </div>
+    
+    {% if vehicles %}
+        <div class="pagination">
+            <a href="#" class="page-link active">1</a>
+            <a href="#" class="page-link">2</a>
+            <a href="#" class="page-link">3</a>
+            <a href="#" class="page-link">4</a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

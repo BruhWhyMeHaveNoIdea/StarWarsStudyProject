@@ -1,0 +1,76 @@
+<!-- m_index.html -->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Главная{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'main/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h2><i class="fas fa-galaxy"></i> Имперские Архивы</h2>
+        <p class="subtitle">Засекреченная информация о вселенной Звёздных Войн</p>
+        <div class="stats">
+            <div class="stat-card">
+                <i class="fas fa-users"></i>
+                <h3>82</h3>
+                <p>Персонажей</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-space-shuttle"></i>
+                <h3>40+</h3>
+                <p>Кораблей</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-film"></i>
+                <h3>9</h3>
+                <p>Фильмов</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sections">
+    <h2>Разделы Базы Данных</h2>
+    <div class="section-grid">
+        <a href="{% url 'people:index' %}" class="section-card">
+            <i class="fas fa-users"></i>
+            <h3>Персонажи</h3>
+            <p>Просмотр всех персонажей вселенной Звёздных Войн</p>
+        </a>
+        <a href="{% url 'ships:index' %}" class="section-card">
+            <i class="fas fa-space-shuttle"></i>
+            <h3>Звёздные корабли</h3>
+            <p>Изучите корабли Империи и Повстанцев</p>
+        </a>
+        <a href="{% url 'films:index' %}" class="section-card">
+            <i class="fas fa-film"></i>
+            <h3>Фильмы</h3>
+            <p>Просмотр данных обо всех фильмах Звёздных Войн</p>
+        </a>
+        <a href="{% url 'vehicles:index' %}" class="section-card">
+            <i class="fas fa-car"></i>
+            <h3>Транспорт</h3>
+            <p>База данных наземного и воздушного транспорта</p>
+        </a>
+    </div>
+</section>
+
+<section class="featured">
+    <h2>Избранный Персонаж</h2>
+    <div class="featured-card">
+        <div class="featured-image">
+            <i class="fas fa-jedi"></i>
+        </div>
+        <div class="featured-content">
+            <h3>Дарт Вейдер</h3>
+            <p class="featured-subtitle">Лорд Ситхов</p>
+            <p>Известный ранее как Энакин Скайуокер, он является центральной фигурой в Галактической Гражданской войне и отцом Люка Скайуокера и Леи Органы.</p>
+            <a href="#" class="btn">Просмотреть Профиль</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
